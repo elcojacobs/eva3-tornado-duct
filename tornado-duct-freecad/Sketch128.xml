@@ -100,7 +100,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="7" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch127.;g11;SKT" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="0.206833464574415" CenterY="5.086985346738494" CenterZ="-1.800000000000002e-15" NormalX="1.900000000000001e-15" NormalY="-1.02e-14" NormalZ="1" AngleXU="-1.5707963267949" Radius="0.01" StartAngle="1.729866174601429" EndAngle="3.300662501396402"/>
+          <ArcOfCircle CenterX="0.206833464574415" CenterY="5.086985346738494" CenterZ="-1.800000000000002e-15" NormalX="1.9e-15" NormalY="-1.02e-14" NormalZ="1" AngleXU="-1.5707963267949" Radius="0.01" StartAngle="1.729866174601429" EndAngle="3.300662501396402"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomArcOfCircle" id="8" ref="Sketch127.;g12;SKT" flags="1" migrated="1">
@@ -108,7 +108,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="8" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch127.;g12;SKT" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="0.995664798270065" CenterY="0.169857615330658" CenterZ="-1.799999999999999e-15" NormalX="1.900000000000001e-15" NormalY="-1.02e-14" NormalZ="1" AngleXU="-1.5707963267949" Radius="0.01" StartAngle="3.300662501396402" EndAngle="4.871458828191277"/>
+          <ArcOfCircle CenterX="0.995664798270065" CenterY="0.169857615330658" CenterZ="-1.799999999999999e-15" NormalX="1.9e-15" NormalY="-1.02e-14" NormalZ="1" AngleXU="-1.5707963267949" Radius="0.01" StartAngle="3.300662501396402" EndAngle="4.871458828191277"/>
           <Construction value="1"/>
         </Geometry>
       </GeometryList>
@@ -298,14 +298,14 @@ Wi
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="24">
 <![CDATA[
-115 PostfixCount 3
+104 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 115 2
+ElementMap 1 104 2
 
 Edge
 

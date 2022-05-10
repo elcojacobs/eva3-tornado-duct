@@ -33,7 +33,7 @@ cccccc00
       <Bool value="false"/>
     </Property>
     <Property name="IconColor" type="App::PropertyColor" status="1">
-      <PropertyColor value="1520435455"/>
+      <PropertyColor value="1325401343"/>
     </Property>
     <Property name="Lighting" type="App::PropertyEnumeration" status="1">
       <Integer value="1"/>

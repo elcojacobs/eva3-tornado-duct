@@ -98,7 +98,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="4" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Binder039.;#52ed;:H1630,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="10.38770627514045" StartY="1.293070497382004" StartZ="-1.8e-15" EndX="11.00534362189509" EndY="-3.668635268571261" EndZ="0"/>
+          <LineSegment StartX="10.38770627514045" StartY="1.293070497382004" StartZ="-1.8e-15" EndX="11.00534362189509" EndY="-3.66863526857126" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
       </GeometryList>
@@ -148,7 +148,7 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="9" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
           </GeoExtensions>
-          <LineSegment StartX="10.38894154983396" StartY="1.283147085850106" StartZ="0" EndX="11.00410834720159" EndY="-3.658711857039339" EndZ="0"/>
+          <LineSegment StartX="10.38894154983396" StartY="1.283147085850106" StartZ="0" EndX="11.00410834720159" EndY="-3.658711857039338" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomArcOfCircle" id="10" migrated="1">
@@ -347,14 +347,14 @@ Wi
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="24">
 <![CDATA[
-51 PostfixCount 3
+50 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 51 2
+ElementMap 1 50 2
 
 Edge
 

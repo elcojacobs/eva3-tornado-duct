@@ -18,7 +18,7 @@
       <String value=""/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388608">
-      <PropertyPlacement Px="9.060601116032531" Py="41.931470212188" Pz="21.0047414537988" Q0="0.7071067811865475" Q1="1.414213562373095e-15" Q2="-1.272792206135785e-15" Q3="0.7071067811865476" A="1.570796326794897" Ox="1" Oy="2e-15" Oz="-1.8e-15"/>
+      <PropertyPlacement Px="9.060601116032531" Py="41.931470212188" Pz="21.0047414537988" Q0="0.7071067811865477" Q1="1.414213562373095e-15" Q2="-1.272792206135786e-15" Q3="0.7071067811865474" A="1.570796326794897" Ox="1" Oy="2e-15" Oz="-1.8e-15"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
       <Part ElementMap="0.15.70200.4" brep="1">

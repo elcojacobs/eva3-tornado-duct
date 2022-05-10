@@ -38,7 +38,7 @@ cccccc00
       <Bool value="false"/>
     </Property>
     <Property name="IconColor" type="App::PropertyColor" status="1">
-      <PropertyColor value="2821521663"/>
+      <PropertyColor value="285249023"/>
     </Property>
     <Property name="Lighting" type="App::PropertyEnumeration" status="1">
       <Integer value="1"/>
@@ -114,7 +114,7 @@ cccccc00
       <Integer value="0"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="1">
-      <Bool value="true"/>
+      <Bool value="false"/>
     </Property>
   </Properties>
 </ViewProvider>
