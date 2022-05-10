@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Spreadsheet">
+  <Properties Count="12" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="dims"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="PythonMode" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowCells" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="423"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="cells" type="Spreadsheet::PropertySheet" status="67108864">
+      <Cells Count="33">
+        <Cell address="A1" content="out width"/>
+        <Cell alias="outw" address="B1" content="4.5"/>
+        <Cell address="A2" content="out straight end"/>
+        <Cell alias="out_str" address="B2" content="1"/>
+        <Cell address="A3" content="out height"/>
+        <Cell alias="outh" address="B3" content="5"/>
+        <Cell address="C5" content="scaled"/>
+        <Cell address="E5" content="24"/>
+        <Cell address="A6" content="ratio L1"/>
+        <Cell address="B6" content="4"/>
+        <Cell alias="ratio_L1" address="C6" content="=B6 / B9"/>
+        <Cell address="E6" content="=C6 * E5"/>
+        <Cell address="A7" content="ratio L2"/>
+        <Cell address="B7" content="5.5"/>
+        <Cell alias="ratio_L2" address="C7" content="=B7 / B9"/>
+        <Cell address="E7" content="=C7 * E5"/>
+        <Cell address="A8" content="ratio L3"/>
+        <Cell address="B8" content="7"/>
+        <Cell alias="ratio_L3" address="C8" content="=B8 / B9"/>
+        <Cell address="E8" content="=C8 * E5"/>
+        <Cell address="A9" content="ratio sum"/>
+        <Cell address="B9" content="=sum(B6:B8)"/>
+        <Cell address="A11" content="ratio R1"/>
+        <Cell address="B11" content="4"/>
+        <Cell alias="ratio_R1" address="C11" content="=B11 / B14"/>
+        <Cell address="A12" content="ratio R2"/>
+        <Cell address="B12" content="5.5"/>
+        <Cell alias="ratio_R2" address="C12" content="=B12 / B14"/>
+        <Cell address="A13" content="ratio R3"/>
+        <Cell address="B13" content="7"/>
+        <Cell alias="ratio_R3" address="C13" content="=B13 / B14"/>
+        <Cell address="A14" content="ratio sum"/>
+        <Cell address="B14" content="=sum(B11:B13)"/>
+      </Cells>
+    </Property>
+    <Property name="columnWidths" type="Spreadsheet::PropertyColumnWidths" status="218103808">
+      <ColumnInfo Count="1">
+        <Column name="A" width="195" />
+      </ColumnInfo>
+    </Property>
+    <Property name="hiddenColumns" type="App::PropertyIntegerSet" status="201326592">
+      <IntegerSet count="0">
+      </IntegerSet>
+    </Property>
+    <Property name="hiddenRows" type="App::PropertyIntegerSet" status="201326592">
+      <IntegerSet count="0">
+      </IntegerSet>
+    </Property>
+    <Property name="rowHeights" type="Spreadsheet::PropertyRowHeights" status="218103808">
+      <RowInfo Count="0">
+      </RowInfo>
+    </Property>
+  </Properties>
+</Object>
+</Document>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Sketch118" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="Part::AttachExtension" name="AttachExtension">
+    </Extension>
+  </Extensions>
+  <Properties Count="20" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="AttacherType" type="App::PropertyString" status="8">
+      <String value="Attacher::AttachEnginePlane"/>
+    </Property>
+    <Property name="AttachmentOffset" type="App::PropertyPlacement">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="Constraints" type="Sketcher::PropertyConstraintList">
+      <ConstraintList count="0">
+      </ConstraintList>
+    </Property>
+    <Property name="Exports" type="App::PropertyLinkListHidden" status="67108864">
+      <LinkList count="0">
+      </LinkList>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="ExternalGeo" type="Part::PropertyGeometryList" status="67108864">
+      <GeometryList count="3">
+        <Geometry type="Part::GeomLineSegment" id="-1" migrated="1">
+          <GeoExtensions count="2">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="-1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
+          </GeoExtensions>
+          <LineSegment StartX="0" StartY="0" StartZ="0" EndX="1" EndY="0" EndZ="0"/>
+          <Construction value="1"/>
+        </Geometry>
+        <Geometry type="Part::GeomLineSegment" id="-2" migrated="1">
+          <GeoExtensions count="2">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="-2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="" Flags="0"/>
+          </GeoExtensions>
+          <LineSegment StartX="0" StartY="0" StartZ="0" EndX="0" EndY="1" EndZ="0"/>
+          <Construction value="1"/>
+        </Geometry>
+        <Geometry type="Part::GeomBSplineCurve" id="1" ref="Sketch100.;g175;SKT" flags="1" migrated="1">
+          <GeoExtensions count="2">
+            <GeoExtension type="Sketcher::SketchGeometryExtension" id="1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
+            <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Sketch100.;g175;SKT" Flags="1"/>
+          </GeoExtensions>
+          <BSplineCurve PolesCount="9" KnotsCount="3" Degree="5" IsPeriodic="0">
+            <Pole X="5.484126248332853" Y="43.79999999999994" Z="0" Weight="1"/>
+            <Pole X="5.484126248332833" Y="37.0155617999999" Z="0" Weight="1"/>
+            <Pole X="7.475104561082943" Y="30.33444150000009" Z="0" Weight="1"/>
+            <Pole X="10.43338051811899" Y="24.07093003602094" Z="0" Weight="1"/>
+            <Pole X="16.23716638383509" Y="13.00770665214695" Z="0" Weight="1"/>
+            <Pole X="17.72069747898266" Y="6.129246100524664" Z="0" Weight="1"/>
+            <Pole X="17.42029271634764" Y="3.65697358169023" Z="0" Weight="1"/>
+            <Pole X="16.11561102593686" Y="2.072425868746111" Z="0" Weight="1"/>
+            <Pole X="13.84454579018373" Y="1.296370010606056" Z="0" Weight="1"/>
+            <Knot Value="0" Mult="6"/>
+            <Knot Value="0.5" Mult="3"/>
+            <Knot Value="1" Mult="6"/>
+          </BSplineCurve>
+          <Construction value="1"/>
+        </Geometry>
+      </GeometryList>
+    </Property>
+    <Property name="ExternalGeometry" type="App::PropertyLinkSubList" status="16777216">
+      <LinkSubList count="1">
+        <Link obj="Sketch100" sub="Edge5" shadow=";g175;SKT.Edge5"/>
+      </LinkSubList>
+    </Property>
+    <Property name="FullyConstrained" type="App::PropertyBool" status="218103808">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Geometry" type="Part::PropertyGeometryList" status="8192">
+      <GeometryList count="0">
+      </GeometryList>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="R-inner-xy"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MapMode" type="App::PropertyEnumeration">
+      <Integer value="5"/>
+    </Property>
+    <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+      <Float value="0"/>
+    </Property>
+    <Property name="MapReversed" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388612">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part ElementMap="0.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 5
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              -1 
+2  4 -1 2 -1 0
+Curve2ds 2
+1 0 0 1 0 
+1 0 -1 1 0 
+Curves 1
+7 0 0  5 9 3  5.4841262483328528 43.79999999999994 0  5.4841262483328332 37.015561799999901 0  7.4751045610829427 30.334441500000089 0  10.433380518118993 24.07093003602094 0  16.237166383835088 13.007706652146949 0  17.720697478982661 6.1292461005246643 0  17.420292716347635 3.6569735816902296 0  16.115611025936865 2.0724258687461115 0  13.84454579018373 1.2963700106060561 0 
+ 0 6 0.5 3 1 6
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 1
+6 -0 -0 1 
+7 0 0  5 9 3  5.4841262483328528 43.79999999999994 0  5.4841262483328332 37.015561799999901 0  7.4751045610829427 30.334441500000089 0  10.433380518118993 24.07093003602094 0  16.237166383835088 13.007706652146949 0  17.720697478982661 6.1292461005246643 0  17.420292716347635 3.6569735816902296 0  16.115611025936865 2.0724258687461115 0  13.84454579018373 1.2963700106060561 0 
+ 0 6 0.5 3 1 6
+Triangulations 0
+
+TShapes 4
+Ve
+1e-07
+5.48412624833285 43.7999999999999 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+13.8445457901837 1.29637001060606 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 1
+2  1 1 3 0 1
+2  2 1 5 0 1
+0
+
+0101000
++4 0 -3 0 *
+Wi
+
+1101000
++2 0 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="3">
+<![CDATA[
+79 PostfixCount 3
+Edge
+Vertex
+;SKT
+
+MapCount 1
+
+ElementMap 1 79 2
+
+Edge
+
+ChildCount 0
+
+NameCount 2
+0
+;e1.3 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 3
+0
+;e1v1.3 0
+;e1v2.3 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="Support" type="App::PropertyLinkSubList">
+      <LinkSubList count="1">
+        <Link obj="XY_Plane" sub=""/>
+      </LinkSubList>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="1738"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>
