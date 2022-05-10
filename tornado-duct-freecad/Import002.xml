@@ -122,7 +122,7 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="3">
 <![CDATA[
-80 PostfixCount 4
+81 PostfixCount 4
 Edge
 Vertex
 ;:H16cc,E
@@ -130,7 +130,7 @@ Vertex
 
 MapCount 1
 
-ElementMap 1 80 2
+ElementMap 1 81 2
 
 Edge
 

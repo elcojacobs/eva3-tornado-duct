@@ -458,7 +458,7 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="123" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
           </GeoExtensions>
-          <LineSegment StartX="-20.71213" StartY="23.23003" StartZ="0" EndX="-5.036037" EndY="23.23003" EndZ="0"/>
+          <LineSegment StartX="-21.113601" StartY="26.798429" StartZ="0" EndX="-5.437508000000001" EndY="26.798429" EndZ="0"/>
           <Construction value="0"/>
         </Geometry>
         <Geometry type="Part::GeomCircle" id="126" migrated="1">
@@ -551,7 +551,7 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="136" internalGeometryType="9" geometryModeFlags="00000000000000000000000000000010"/>
           </GeoExtensions>
-          <Circle CenterX="-20.71213" CenterY="23.23003" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="1"/>
+          <Circle CenterX="-21.113601" CenterY="26.798429" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="1"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomCircle" id="137" migrated="1">
@@ -575,7 +575,7 @@
           <BSplineCurve PolesCount="5" KnotsCount="3" Degree="3" IsPeriodic="0">
             <Pole X="-17.58181818181797" Y="43.79999999999998" Z="0" Weight="1"/>
             <Pole X="-17.58181818181797" Y="30.29999999999994" Z="0" Weight="1"/>
-            <Pole X="-20.71213" Y="23.23003" Z="0" Weight="1"/>
+            <Pole X="-21.113601" Y="26.798429" Z="0" Weight="1"/>
             <Pole X="-16.78066064615102" Y="5.295976839405733" Z="0" Weight="1"/>
             <Pole X="-12.78066064615102" Y="5.295976839405724" Z="0" Weight="1"/>
             <Knot Value="0" Mult="4"/>
@@ -595,7 +595,7 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="140" internalGeometryType="10" geometryModeFlags="00000000000000000000000000000010"/>
           </GeoExtensions>
-          <GeomPoint X="-18.94668470699225" Y="20.51400920985142" Z="0"/>
+          <GeomPoint X="-19.14742020699225" Y="22.29820870985142" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="141" migrated="1">
@@ -623,7 +623,7 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="144" internalGeometryType="9" geometryModeFlags="00000000000000000000000000000010"/>
           </GeoExtensions>
-          <Circle CenterX="-13.202792" CenterY="23.23003" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="1"/>
+          <Circle CenterX="-13.202792" CenterY="26.798429" CenterZ="0" NormalX="0" NormalY="0" NormalZ="1" AngleXU="-0" Radius="1"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomCircle" id="145" migrated="1">
@@ -647,7 +647,7 @@
           <BSplineCurve PolesCount="5" KnotsCount="3" Degree="3" IsPeriodic="0">
             <Pole X="-7.768087276885299" Y="43.8" Z="0" Weight="1"/>
             <Pole X="-7.768087276885299" Y="31.8" Z="0" Weight="0.7"/>
-            <Pole X="-13.202792" Y="23.23003" Z="0" Weight="1"/>
+            <Pole X="-13.202792" Y="26.798429" Z="0" Weight="1"/>
             <Pole X="-14.12014105241112" Y="12.24582025956299" Z="0" Weight="1"/>
             <Pole X="-10.25374619326131" Y="11.22064183941364" Z="0" Weight="1"/>
             <Knot Value="0" Mult="4"/>
@@ -667,7 +667,7 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="148" internalGeometryType="10" geometryModeFlags="00000000000000000000000000000010"/>
           </GeoExtensions>
-          <GeomPoint X="-12.4225367962786" Y="21.88267034042243" Z="0"/>
+          <GeomPoint X="-12.4225367962786" Y="23.81153466474675" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="149" migrated="1">
@@ -695,14 +695,14 @@
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="158" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
           </GeoExtensions>
-          <LineSegment StartX="-20.71213" StartY="23.23003" StartZ="0" EndX="-28.02422" EndY="23.23003" EndZ="0"/>
+          <LineSegment StartX="-21.113601" StartY="26.798429" StartZ="0" EndX="-28.02422" EndY="26.798429" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="159" migrated="1">
           <GeoExtensions count="1">
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="159" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
           </GeoExtensions>
-          <LineSegment StartX="-28.02422" StartY="23.23003" StartZ="0" EndX="-27.65988" EndY="11.729623" EndZ="0"/>
+          <LineSegment StartX="-28.02422" StartY="26.798429" StartZ="0" EndX="-27.65988" EndY="11.729623" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="160" migrated="1">
@@ -1023,12 +1023,12 @@ Locations 1
               0               0               1               0 
 Curve2ds 0
 Curves 8
-1 -20.712129999999998 23.230029999999999 0 1 0 0 
+1 -21.113600999999999 26.798428999999999 0 1 0 0 
 7 0 0  3 5 3  -24.724858692221819 43.800000000000033 0  -24.724858692221819 28.79999999999994 0  -27.659880000000001 11.729623 0  -17.629654516438979 -2.5897964408394789 0  -13.84454579018373 -1.2963700106060529 0 
  0 4 0.5 1 1 4
-7 0 0  3 5 3  -17.581818181817969 43.799999999999983 0  -17.581818181817969 30.29999999999994 0  -20.712129999999998 23.230029999999999 0  -16.78066064615102 5.2959768394057329 0  -12.78066064615102 5.2959768394057241 0 
+7 0 0  3 5 3  -17.581818181817969 43.799999999999983 0  -17.581818181817969 30.29999999999994 0  -21.113600999999999 26.798428999999999 0  -16.78066064615102 5.2959768394057329 0  -12.78066064615102 5.2959768394057241 0 
  0 4 0.5 1 1 4
-7 1 0  3 5 3  -7.7680872768852991 43.799999999999997 0  1 -7.7680872768852991 31.800000000000001 0  0.69999999999999996 -13.202792000000001 23.230029999999996 0  1 -14.120141052411119 12.24582025956299 0  1 -10.253746193261311 11.22064183941364 0  1
+7 1 0  3 5 3  -7.7680872768852991 43.799999999999997 0  1 -7.7680872768852991 31.800000000000001 0  0.69999999999999996 -13.202792000000001 26.798428999999999 0  1 -14.120141052411119 12.24582025956299 0  1 -10.253746193261311 11.22064183941364 0  1
  0 4 0.5 1 1 4
 7 0 0  3 5 3  5.4841262483328528 43.79999999999994 0  5.4841262483328528 32.492603000000003 0  18.757314999999998 10.566595 0  17.629654516438979 2.589796440839486 0  13.84454579018373 1.2963700106060569 0 
  0 4 0.5 1 1 4
@@ -1045,14 +1045,14 @@ Triangulations 0
 TShapes 33
 Ve
 1e-07
--20.71213 23.23003 0
+-21.113601 26.798429 0
 0 0
 
 0101101
 *
 Ve
 1e-07
--5.036037 23.23003 0
+-5.437508 26.798429 0
 0 0
 
 0101101
@@ -1253,14 +1253,14 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="24">
 <![CDATA[
-22 PostfixCount 3
+28 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 22 2
+ElementMap 1 28 2
 
 Edge
 

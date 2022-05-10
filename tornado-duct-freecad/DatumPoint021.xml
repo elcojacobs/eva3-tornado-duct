@@ -71,7 +71,7 @@ Ve
     </Property>
     <Property name="Support" type="App::PropertyLinkSubList">
       <LinkSubList count="1">
-        <Link obj="Binder039" sub="Face1" shadow=";#52f6;:H1630,F.Face1"/>
+        <Link obj="Pad003" sub="Face31" shadow=";#41b5;:H12ce,F.Face31"/>
       </LinkSubList>
     </Property>
     <Property name="TreeRank" type="App::PropertyInteger" status="2184">

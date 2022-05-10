@@ -311,7 +311,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="40" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge195;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="2.200000000000219" CenterY="-18.8" CenterZ="0" NormalX="0" NormalY="-7e-16" NormalZ="1" AngleXU="-3.141592653589793" Radius="1" StartAngle="4.71238898038469" EndAngle="6.283185307179586"/>
+          <ArcOfCircle CenterX="2.20000000000022" CenterY="-18.8" CenterZ="0" NormalX="0" NormalY="-7e-16" NormalZ="1" AngleXU="-3.141592653589793" Radius="1" StartAngle="4.71238898038469" EndAngle="6.283185307179586"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomArcOfCircle" id="41" ref="Import.;Edge199;:H11e0,E" flags="1" migrated="1">
@@ -1357,14 +1357,14 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="72">
 <![CDATA[
-16 PostfixCount 3
+22 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 2
 
-ElementMap 1 17 2
+ElementMap 1 23 2
 
 Edge
 
@@ -1394,7 +1394,7 @@ NameCount 7
 
 EndMap
 
-ElementMap 2 16 2
+ElementMap 2 22 2
 
 Edge
 

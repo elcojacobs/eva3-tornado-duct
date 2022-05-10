@@ -4,7 +4,9 @@
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
 <Expand  count="7">
-  <Expand name="Body"/>
+  <Expand name="Body" count="1">
+    <Expand name="Pipe002"/>
+  </Expand>
   <Expand name="Mixed_curve028"/>
   <Expand name="Mixed_curve029"/>
   <Expand name="Mixed_curve030"/>
@@ -16,13 +18,13 @@
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 30.523895 169.61942 58.537926
-  orientation 0.0055701742 -0.59259319 -0.80548263  3.2429612
-  nearDistance 98.673386
-  farDistance 196.96973
+  position 0.97977829 -19.746357 96.250038
+  orientation -0.99916273 -0.019676201 -0.035879899  5.5225306
+  nearDistance 18.211506
+  farDistance 125.56593
   aspectRatio 1
   focalDistance 46.21854
-  height 54.515919
+  height 81.328201
 
 }
 ## overrideMode: As Is]]>

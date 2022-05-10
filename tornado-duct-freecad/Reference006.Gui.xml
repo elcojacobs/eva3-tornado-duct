@@ -37,7 +37,30 @@ cccccc00
       <PropertyColor value="421075455"/>
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
+      <ColorList count="24" >
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
 19191900
       </ColorList>
     </Property>
@@ -69,7 +92,22 @@ cccccc00
       <PropertyColor value="421075455"/>
     </Property>
     <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1" >
+      <ColorList count="16" >
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
+19191900
 19191900
       </ColorList>
     </Property>
