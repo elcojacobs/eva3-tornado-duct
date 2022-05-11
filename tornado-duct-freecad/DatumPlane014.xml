@@ -21,14 +21,14 @@
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
-    <Property name="Label" type="App::PropertyString" status="134217728">
-      <String value="DatumPlane014"/>
+    <Property name="Label" type="App::PropertyString" status="134217729">
+      <String value="L-outer-zplane"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
     </Property>
     <Property name="Length" type="App::PropertyLength" status="134217732">
-      <Float value="16.76556867627596"/>
+      <Float value="98.80780608016133"/>
     </Property>
     <Property name="MapMode" type="App::PropertyEnumeration">
       <Integer value="13"/>
@@ -46,7 +46,7 @@
       <Float value="10"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="-8.241619564073938" Py="14.59999999999997" Pz="5.083333333333334" Q0="0.6106513077006918" Q1="-0.3565178542561862" Q2="-0.3565178542561862" Q3="0.6106513077006916" A="1.827827067911477" Ox="0.7711221293589776" Oy="-0.45020587602389" Oz="-0.45020587602389"/>
+      <PropertyPlacement Px="-8.24161956407394" Py="14.59999999999997" Pz="5.083333333333334" Q0="0.6106513077006915" Q1="-0.3565178542561863" Q2="-0.3565178542561863" Q3="0.6106513077006915" A="1.827827067911477" Ox="0.7711221293589773" Oy="-0.4502058760238901" Oz="-0.4502058760238901"/>
     </Property>
     <Property name="ResizeMode" type="App::PropertyEnumeration" status="134217728">
       <Integer value="0"/>
@@ -58,9 +58,9 @@
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-0.491580078386259 -1.09862360216996e-16 -0.870832375680739 -8.24161956407394 
--0.870832375680739 -1.25761629834694e-16 -0.491580078386259            14.6 
--5.55111512312578e-17               1 -1.57493611997782e-16 5.08333333333333 
+0.491580078386259               0 -0.870832375680739 -8.24161956407394 
+-0.870832375680739               0 -0.491580078386259            14.6 
+              0               1               0 5.08333333333333 
 Curve2ds 0
 Curves 0
 Polygon3D 0
@@ -93,7 +93,7 @@ Fa
       <Bool value="false"/>
     </Property>
     <Property name="Width" type="App::PropertyLength" status="134217732">
-      <Float value="10"/>
+      <Float value="73.30273342132568"/>
     </Property>
   </Properties>
 </Object>

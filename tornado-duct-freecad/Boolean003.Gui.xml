@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- FreeCAD ViewProvider -->
 <Document SchemaVersion="1" FileVersion="2">
-<ViewProvider name="Boolean003" expanded="0" Extensions="True">
+<ViewProvider name="Boolean003" expanded="1" Extensions="True">
   <Extensions Count="3">
     <Extension type="Gui::ViewProviderGeoFeatureGroupExtension" name="ViewProviderGeoFeatureGroupExtension">
     </Extension>
@@ -114,7 +114,7 @@ cccccc00
       <Integer value="0"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="1">
-      <Bool value="true"/>
+      <Bool value="false"/>
     </Property>
   </Properties>
 </ViewProvider>

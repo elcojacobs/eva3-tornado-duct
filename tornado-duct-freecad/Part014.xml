@@ -23,18 +23,9 @@
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
     <Property name="Group" type="App::PropertyLinkList">
-      <LinkList count="11">
-        <Link value="Solid"/>
-        <Link value="Part"/>
-        <Link value="Link023"/>
-        <Link value="Part001"/>
-        <Link value="Part002"/>
-        <Link value="Part005"/>
-        <Link value="Part006"/>
+      <LinkList count="2">
         <Link value="Part007"/>
-        <Link value="Part010"/>
         <Link value="Part011"/>
-        <Link value="Part013"/>
       </LinkList>
     </Property>
     <Property name="Id" type="App::PropertyString">
@@ -79,18 +70,9 @@
       <Bool value="false"/>
     </Property>
     <Property name="_ExportChildren" type="App::PropertyLinkList" status="218104320">
-      <LinkList count="11">
-        <Link value="Solid"/>
-        <Link value="Part"/>
-        <Link value="Link023"/>
-        <Link value="Part001"/>
-        <Link value="Part002"/>
-        <Link value="Part005"/>
-        <Link value="Part006"/>
+      <LinkList count="2">
         <Link value="Part007"/>
-        <Link value="Part010"/>
         <Link value="Part011"/>
-        <Link value="Part013"/>
       </LinkList>
     </Property>
     <Property name="_GroupVersion" type="App::PropertyInteger" status="218103808">

@@ -77,12 +77,12 @@ Locations 14
               0               0              -1               0 
 1
               1               0               0               0 
-              0              -1               0               0 
-              0              -0              -1               0 
+              0              -1 1.22464679914735e-16               0 
+              0 -1.22464679914735e-16              -1               0 
 1
               1              -0               0               0 
-              0              -1               0               0 
-              0               0              -1               0 
+              0              -1 1.22464679914735e-16               0 
+             -0 -1.22464679914735e-16              -1               0 
 1
               1               0               0               0 
               0               1               0               0 
@@ -160,7 +160,7 @@ Wi
 Fa
 0  1e-07 1 0
 
-0101000
+0111000
 +3 0 *
 Co
 
@@ -172,7 +172,7 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="9">
 <![CDATA[
-50 PostfixCount 6
+42 PostfixCount 6
 Edge
 Face
 Vertex
@@ -182,7 +182,7 @@ Vertex
 
 MapCount 1
 
-ElementMap 1 50 3
+ElementMap 1 42 3
 
 Edge
 

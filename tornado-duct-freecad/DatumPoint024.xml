@@ -21,8 +21,8 @@
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
-    <Property name="Label" type="App::PropertyString" status="134217728">
-      <String value="DatumPoint024"/>
+    <Property name="Label" type="App::PropertyString" status="134217729">
+      <String value="L-inner-midpoint"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
@@ -36,19 +36,19 @@
     <Property name="MapReversed" type="App::PropertyBool">
       <Bool value="false"/>
     </Property>
-    <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="-11.35573507656613" Py="26.798429" Pz="11.26777606133128" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388613">
+      <PropertyPlacement Px="-11.35573507556796" Py="26.798429" Pz="11.26777606157481" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
-    <Property name="Shape" type="Part::PropertyPartShape">
+    <Property name="Shape" type="Part::PropertyPartShape" status="1">
       <Part ElementMap="0.15.70200.4" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-              1               0               0 -11.3557350765661 
+              1               0               0 -11.355735075568 
               0               1               0       26.798429 
-              0               0               1 11.2677760613313 
+              0               0               1 11.2677760615748 
 Curve2ds 0
 Curves 0
 Polygon3D 0
@@ -69,16 +69,16 @@ Ve
       </Part>
       <ElementMap/>
     </Property>
-    <Property name="Support" type="App::PropertyLinkSubList">
+    <Property name="Support" type="App::PropertyLinkSubList" status="1">
       <LinkSubList count="2">
         <Link obj="DatumPlane017" sub="Plane"/>
-        <Link obj="Binder033" sub="Edge1" shadow=";#1031;:H164d,E.Edge1"/>
+        <Link obj="Wrap002" sub="Edge1" shadow=";#1031;:H1711,E.Edge1"/>
       </LinkSubList>
     </Property>
     <Property name="TreeRank" type="App::PropertyInteger" status="2184">
       <Integer value="1836"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
+    <Property name="Visibility" type="App::PropertyBool" status="649">
       <Bool value="false"/>
     </Property>
   </Properties>

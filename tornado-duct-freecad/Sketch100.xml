@@ -208,7 +208,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#51f2;:H-1630,F" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="9975.209090909091" StartY="42.79999999999994" StartZ="0" EndX="-10024.79090909091" EndY="42.79999999999994" EndZ="0"/>
+          <LineSegment StartX="9975.209090909091" StartY="42.79999999999993" StartZ="0" EndX="-10024.79090909091" EndY="42.79999999999993" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="2" ref="DatumPoint018." migrated="1">
@@ -224,7 +224,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="3" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint019." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="-17.58181818181797" Y="43.79999999999994" Z="0"/>
+          <GeomPoint X="-17.58181818181797" Y="43.79999999999993" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="113" ref="DatumPoint023." migrated="1">
@@ -280,7 +280,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="152" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#4833;:H136a,E;:H-1630,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="-2.199999999999783" StartY="43.80000000000002" StartZ="0" EndX="-12.98181818181798" EndY="43.80000000000002" EndZ="0"/>
+          <LineSegment StartX="-2.199999999999783" StartY="43.8" StartZ="0" EndX="-12.98181818181797" EndY="43.8" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="153" ref="DatumPoint020." migrated="1">
@@ -288,7 +288,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="153" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint020." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="-7.768087276885312" Y="43.79999999999994" Z="0"/>
+          <GeomPoint X="-7.768087276885304" Y="43.79999999999993" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="154" ref="Pad003.;#5165;:H-1630,E" migrated="1">
@@ -296,7 +296,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="154" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#5165;:H-1630,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="-14.18181818181797" StartY="43.80000000000002" StartZ="0" EndX="-20.98181818181797" EndY="43.80000000000002" EndZ="0"/>
+          <LineSegment StartX="-14.18181818181797" StartY="43.8" StartZ="0" EndX="-20.98181818181797" EndY="43.8" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="155" ref="Pad003.;#5167;:H-1630,E" migrated="1">
@@ -304,7 +304,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="155" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#5167;:H-1630,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="-22.18181818181797" StartY="43.80000000000002" StartZ="0" EndX="-25.4" EndY="43.80000000000002" EndZ="0"/>
+          <LineSegment StartX="-22.18181818181797" StartY="43.8" StartZ="0" EndX="-25.4" EndY="43.8" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="161" ref="DatumPoint." migrated="1">
@@ -312,7 +312,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="161" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="5.484126248332855" Y="43.79999999999994" Z="0"/>
+          <GeomPoint X="5.484126248332849" Y="43.79999999999993" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="162" ref="DatumPoint027." migrated="1">
@@ -320,7 +320,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="162" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint027." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="13.21818181818205" Y="43.79999999999994" Z="0"/>
+          <GeomPoint X="13.21818181818205" Y="43.79999999999993" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="163" ref="DatumPoint028." migrated="1">
@@ -328,7 +328,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="163" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint028." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="22.53781756275443" Y="43.79999999999994" Z="0"/>
+          <GeomPoint X="22.53781756275443" Y="43.79999999999993" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="164" ref="DatumPoint030." migrated="1">
@@ -1253,14 +1253,14 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="24">
 <![CDATA[
-28 PostfixCount 3
+21 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 28 2
+ElementMap 1 21 2
 
 Edge
 

@@ -4,10 +4,13 @@
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
 <Expand  count="7">
-  <Expand name="Body" count="1">
-    <Expand name="Pipe002"/>
+  <Expand name="Part014"/>
+  <Expand name="Body" count="4">
+    <Expand name="Pipe007"/>
+    <Expand name="Pipe011"/>
+    <Expand name="Boolean002"/>
+    <Expand name="Boolean003"/>
   </Expand>
-  <Expand name="Mixed_curve028"/>
   <Expand name="Mixed_curve029"/>
   <Expand name="Mixed_curve030"/>
   <Expand name="Mixed_curve"/>
@@ -18,13 +21,13 @@
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 0.97977829 -19.746357 96.250038
-  orientation -0.99916273 -0.019676201 -0.035879899  5.5225306
-  nearDistance 18.211506
-  farDistance 125.56593
+  position -57.811829 73.089645 -123.94331
+  orientation 0.67723989 -0.73386317 -0.052830178  3.0600796
+  nearDistance 118.85798
+  farDistance 217.68886
   aspectRatio 1
   focalDistance 46.21854
-  height 81.328201
+  height 148.18987
 
 }
 ## overrideMode: As Is]]>

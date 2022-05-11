@@ -138,7 +138,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="12" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint024." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="-11.35573507656613" Y="11.26777606133128" Z="0"/>
+          <GeomPoint X="-11.35573507657045" Y="11.26777606133783" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="13" ref="DatumPoint025." migrated="1">
@@ -146,7 +146,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="13" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint025." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="-18.94105456449859" Y="12.61250743808352" Z="0"/>
+          <GeomPoint X="-18.9410545644986" Y="12.61250743808353" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="14" ref="DatumPoint026." migrated="1">
@@ -154,12 +154,12 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="14" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint026." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="-25.19265230597258" Y="13.27962693290316" Z="0"/>
+          <GeomPoint X="-25.19265230614784" Y="13.27962693292386" Z="0"/>
           <Construction value="1"/>
         </Geometry>
       </GeometryList>
     </Property>
-    <Property name="ExternalGeometry" type="App::PropertyLinkSubList" status="16777216">
+    <Property name="ExternalGeometry" type="App::PropertyLinkSubList" status="16777217">
       <LinkSubList count="3">
         <Link obj="DatumPoint024" sub="Point"/>
         <Link obj="DatumPoint025" sub="Point"/>
@@ -753,14 +753,14 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="36">
 <![CDATA[
-51 PostfixCount 3
+43 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 2
 
-ElementMap 1 52 2
+ElementMap 1 44 2
 
 Edge
 
@@ -790,7 +790,7 @@ NameCount 7
 
 EndMap
 
-ElementMap 2 51 2
+ElementMap 2 43 2
 
 Edge
 

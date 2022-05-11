@@ -79,7 +79,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint017." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="1.617157620106354" Y="-0.8089012776548445" Z="5.338952921601744e-16"/>
+          <GeomPoint X="1.617157620106346" Y="-0.8089012776548463" Z="-2.664535259100376e-15"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="18" ref="DatumPoint021." migrated="1">
@@ -87,7 +87,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="18" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint021." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="1.989012868406741" Y="-1.278372840440735" Z="1.918284735551527e-15"/>
+          <GeomPoint X="1.989012868406732" Y="-1.278372840440737" Z="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="19" ref="DatumPoint018." flags="1" migrated="1">
@@ -95,7 +95,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="19" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint018." Flags="1"/>
           </GeoExtensions>
-          <GeomPoint X="-32.61681187030328" Y="9.004058335661689" Z="2.997151600718597e-15"/>
+          <GeomPoint X="-32.61681187030328" Y="9.004058335661689" Z="-2.220446049250313e-15"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="22" ref="DatumPoint020." migrated="1">
@@ -103,7 +103,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="22" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint020." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="-29.65567721508014" Y="9.491883328676625" Z="2.784568876949417e-16"/>
+          <GeomPoint X="-29.65567721508014" Y="9.491883328676629" Z="4.440892098500626e-16"/>
           <Construction value="1"/>
         </Geometry>
       </GeometryList>
@@ -223,7 +223,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="-2.589362425628438" Py="14.59999999999998" Pz="5.245941664338313" Q0="0.5419013855889723" Q1="-0.4542498082517505" Q2="-0.4542498082517505" Q3="0.5419013855889722" A="1.996196999064114" Ox="0.6447813586141877" Oy="-0.5404891301329021" Oz="-0.5404891301329021"/>
+      <PropertyPlacement Px="-2.589362425628434" Py="14.59999999999998" Pz="5.245941664338313" Q0="0.5419013855889722" Q1="-0.4542498082517505" Q2="-0.4542498082517505" Q3="0.5419013855889722" A="1.996196999064114" Ox="0.6447813586141876" Oy="-0.5404891301329021" Oz="-0.5404891301329021"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
       <Part ElementMap="0.15.70200.4" brep="1">
@@ -232,26 +232,26 @@
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 4
 1
-0.174628446812992 -1.26428513363276e-16 -0.984634401980594 -2.58936242562844 
--0.984634401980594 -1.35177398957713e-16 -0.174628446812992            14.6 
--1.11022302462516e-16               1 -1.4809168287295e-16 5.24594166433831 
+0.174628446812992               0 -0.984634401980594 -2.58936242562843 
+-0.984634401980594               0 -0.174628446812992            14.6 
+              0               1               0 5.24594166433831 
 2  1 -1 0
 1
               1               0               0 0.984634401980594 
               0               1               0 0.174628446812992 
-              0               0               1 1.11022302462516e-16 
+              0               0               1               0 
 2  3 -1 1 -1 0
 Curve2ds 2
 1 0 0 1 0 
-1 0 -1.0000000000000002 1 0 
+1 0 -1 1 0 
 Curves 1
 7 1 0  3 4 2  -35.155677215080139 9.0040583356616892 0  1 -17.655677215080139 9.0040583356616892 0  1 -1.115478205674965 2.641083138531457 0  1 1.9890128684067361 -1.2783728404407351 0  1
  0 4 1 4
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 1
-6 -0.98463440198059404 -0.17462844681299158 -1.1102230246251563e-16 
-7 0 0  3 4 2  -8.7285437343567587 49.215489210893224 14.250000000000007  -5.6725459151294082 31.984387176232822 14.250000000000007  -2.7841566521391998 15.698338215967139 7.8870248028697709  -2.2420241977275159 12.64154950378461 3.9675688238975777 
+6 -0.98463440198059415 -0.1746284468129915 -0 
+7 0 0  3 4 2  -8.7285437343567533 49.21548921089321 14.250000000000004  -5.6725459151294029 31.984387176232811 14.250000000000004  -2.7841566521391963 15.698338215967132 7.8870248028697709  -2.2420241977275128 12.641549503784603 3.9675688238975786 
  0 4 1 4
 Triangulations 0
 
@@ -289,14 +289,14 @@ Wi
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="3">
 <![CDATA[
-41 PostfixCount 3
+33 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 41 2
+ElementMap 1 33 2
 
 Edge
 

@@ -117,9 +117,9 @@ Wi
       </Part>
       <ElementMap/>
     </Property>
-    <Property name="Support" type="App::PropertyXLinkSubList">
+    <Property name="Support" type="App::PropertyXLinkSubList" status="1">
       <XLinkSubList count="1">
-        <XLink file="" stamp="" name="Mixed_curve028" sub=""/>
+        <XLink file="" stamp="" name=""/>
       </XLinkSubList>
     </Property>
     <Property name="TreeRank" type="App::PropertyInteger" status="2184">

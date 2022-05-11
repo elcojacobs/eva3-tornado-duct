@@ -37,7 +37,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="-7.768087276885312" Py="43.79999999999994" Pz="14.73782499301494" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+      <PropertyPlacement Px="-7.768087276885304" Py="43.79999999999993" Pz="14.73782499301494" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
       <Part ElementMap="0.15.70200.4" brep="1">
@@ -46,7 +46,7 @@
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-              1               0               0 -7.76808727688531 
+              1               0               0 -7.7680872768853 
               0               1               0 43.7999999999999 
               0               0               1 14.7378249930149 
 Curve2ds 0
@@ -77,7 +77,7 @@ Ve
     <Property name="TreeRank" type="App::PropertyInteger" status="2184">
       <Integer value="1812"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="649">
+    <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
     </Property>
   </Properties>

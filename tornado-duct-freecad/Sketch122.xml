@@ -72,7 +72,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint027." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="-30.50071278277144" Y="9.166666666666664" Z="9e-16"/>
+          <GeomPoint X="-30.50071278277143" Y="9.166666666666666" Z="-8.881784197001252e-16"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="2" ref="DatumPoint033." migrated="1">
@@ -80,7 +80,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint033." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="16.62795675190938" Y="-1.119160651632755" Z="-9e-16"/>
+          <GeomPoint X="16.6279567519094" Y="-1.119160651632753" Z="2.997602166487923e-15"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomPoint" id="3" ref="DatumPoint030." migrated="1">
@@ -88,7 +88,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="3" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="DatumPoint030." Flags="0"/>
           </GeoExtensions>
-          <GeomPoint X="16.37285972294359" Y="-0.6496890888468512" Z="4e-16"/>
+          <GeomPoint X="16.37285972294361" Y="-0.6496890888468494" Z="2.220446049250313e-15"/>
           <Construction value="1"/>
         </Geometry>
       </GeometryList>
@@ -193,39 +193,35 @@
       <Bool value="false"/>
     </Property>
     <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-      <PropertyPlacement Px="4.406060606060683" Py="14.59999999999998" Pz="5.083333333333331" Q0="-0.4216292046851121" Q1="0.5676520181912506" Q2="0.5676520181912506" Q3="-0.4216292046851121" A="4.012075226786555" Ox="-0.4649800707730777" Oy="0.6260165867546418" Oz="0.6260165867546418"/>
+      <PropertyPlacement Px="4.406060606060683" Py="14.59999999999998" Pz="5.083333333333332" Q0="-0.4216292046851124" Q1="0.5676520181912503" Q2="0.5676520181912503" Q3="-0.4216292046851124" A="4.012075226786556" Ox="-0.4649800707730781" Oy="0.6260165867546416" Oz="0.6260165867546416"/>
     </Property>
     <Property name="Shape" type="Part::PropertyPartShape">
       <Part ElementMap="0.15.70200.4" brep="1">
 <![CDATA[
 
 CASCADE Topology V1, (c) Matra-Datavision
-Locations 5
+Locations 4
 1
--0.288915255026399               0 -0.957354675871503 4.40606060606068 
--0.957354675871503               0 0.288915255026399            14.6 
-              0               1               0 5.08333333333333 
-1
--0.288915255026399               0 -0.957354675871503 4.40606060606068 
--0.957354675871503               0 0.288915255026399            14.6 
-              0               1               0 5.08333333333333 
-2  2 -1 0
+-0.288915255026398 6.69155414656192e-17 -0.957354675871503 4.40606060606068 
+-0.957354675871503 3.77897882731444e-17 0.288915255026398            14.6 
+5.55111512312578e-17               1 5.31438601942548e-17 5.08333333333333 
+2  1 -1 0
 1
               1               0               0 0.957354675871503 
-              0               1               0 -0.288915255026399 
+              0               1               0 -0.288915255026398 
               0               0               1               0 
-2  4 -1 2 -1 0
+2  3 -1 1 -1 0
 Curve2ds 2
 1 0 0 1 0 
 1 0 -1 1 0 
 Curves 1
-7 0 0  3 4 2  -30.500712782771444 9.1666666666666643 0  -5.5007127827714442 9.1666666666666643 0  11.853554069032752 7.6674814272128762 0  16.62795675190938 -1.1191606516327517 0 
+7 1 0  3 4 2  -30.500712782771441 9.1666666666666643 0  1 -5.5007127827714442 9.1666666666666643 0  1 11.85355406903275 7.6674814272128762 0  1 16.62795675190938 -1.1191606516327519 0  1
  0 4 1 4
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 1
-6 -0.95735467587150302 0.28891525502639936 -0 
-7 0 0  3 4 2  13.218181818182053 43.79999999999994 14.249999999999996  5.9953004425220691 19.866133103212366 14.249999999999996  0.98138800923687119 3.2519445863157905 12.750814760546207  -0.39800975948515482 -1.3188521466295988 3.9641726817005796 
+6 -0.95735467587150347 0.28891525502639837 -0 
+7 0 0  3 4 2  13.218181818182025 43.799999999999955 14.249999999999995  5.9953004425220655 19.86613310321237 14.249999999999996  0.98138800923688274 3.251944586315787 12.750814760546209  -0.39800975948514061 -1.3188521466296059 3.9641726817005809 
  0 4 1 4
 Triangulations 0
 
@@ -247,8 +243,8 @@ Ve
 Ed
  1e-07 1 1 0
 1  1 0 0 1
-2  1 1 3 0 1
-2  2 1 5 0 1
+2  1 1 2 0 1
+2  2 1 4 0 1
 0
 
 0101000
@@ -263,14 +259,14 @@ Wi
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="3">
 <![CDATA[
-74 PostfixCount 3
+70 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 74 2
+ElementMap 1 70 2
 
 Edge
 

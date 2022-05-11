@@ -66,7 +66,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="1" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#417d;:H12ce,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="6.53980843253716" StartY="4.224508880650431" StartZ="0" EndX="5.922171085782505" EndY="-0.7371968853028319" EndZ="1.8e-15"/>
+          <LineSegment StartX="6.539808432537153" StartY="4.224508880650434" StartZ="0" EndX="5.922171085782503" EndY="-0.7371968853028301" EndZ="-1.77635683940025e-15"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="2" ref="Pad003.;#4179;:H12ce,E" migrated="1">
@@ -74,7 +74,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#4179;:H12ce,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="6.539808432537158" StartY="4.224508880650432" StartZ="1.8e-15" EndX="11.0053436218951" EndY="3.668635268571244" EndZ="1.8e-15"/>
+          <LineSegment StartX="6.539808432537157" StartY="4.224508880650435" StartZ="0" EndX="11.0053436218951" EndY="3.668635268571248" EndZ="-1.77635683940025e-15"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="3" ref="Pad003.;#417c;:H12ce,E" migrated="1">
@@ -82,7 +82,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="3" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#417c;:H12ce,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="5.922171085782508" StartY="-0.7371968853028337" StartZ="1.8e-15" EndX="10.38770627514044" EndY="-1.293070497382021" EndZ="1.8e-15"/>
+          <LineSegment StartX="5.922171085782506" StartY="-0.7371968853028301" StartZ="0" EndX="10.38770627514045" EndY="-1.293070497382018" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="4" ref="Pad003.;#417e;:H12ce,E" migrated="1">
@@ -90,7 +90,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="4" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Pad003.;#417e;:H12ce,E" Flags="0"/>
           </GeoExtensions>
-          <LineSegment StartX="11.0053436218951" StartY="3.668635268571244" StartZ="1.8e-15" EndX="10.38770627514044" EndY="-1.293070497382019" EndZ="1.8e-15"/>
+          <LineSegment StartX="11.00534362189509" StartY="3.668635268571244" StartZ="0" EndX="10.38770627514044" EndY="-1.293070497382019" EndZ="0"/>
           <Construction value="1"/>
         </Geometry>
       </GeometryList>
@@ -182,12 +182,12 @@ Locations 1
 -0.109068281715359 -0.876185232504539 0.469471562785891 6.6444093688308 
 Curve2ds 0
 Curves 6
-1 10.377782863608534 -1.2918352226885115 0 -0.99234115319065297 0.12352746935093063 0 
+1 10.37778286360853 -1.291835222688511 0 -0.99234115319065297 0.12352746935093063 0 
 1 6.5398084325371579 4.2245088806504318 0 -0.12352746935093002 -0.99234115319065308 0 
-1 6.5398084325371579 4.2245088806504318 0 0.99234115319065297 -0.12352746935093062 0 
-2 10.994184935669681 3.6599471317328471 0 0 0 1 1 0 -0 -0 1 0 0.01
-1 11.004108347201587 3.6587118570393184 0 -0.12352746935093149 -0.99234115319065286 0 
-2 10.379018138302044 -1.281911811156605 0 0 0 1 1 0 -0 -0 1 0 0.01
+1 6.5398084325371579 4.2245088806504318 0 0.99234115319065286 -0.12352746935093066 0 
+2 10.994184935669679 3.6599471317328471 0 0 0 1 1 0 0 0 1 0 0.01
+1 11.004108347201591 3.658711857039318 0 -0.12352746935093188 -0.99234115319065286 0 
+2 10.37901813830204 -1.281911811156605 0 0 0 1 1 0 0 0 1 0 0.01
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
@@ -195,7 +195,7 @@ Triangulations 0
 
 TShapes 13
 Ve
-1.00000001e-07
+1.00000000915513e-07
 10.3777828636085 -1.29183522268851 0
 0 0
 
@@ -230,7 +230,7 @@ Ed
 0101000
 +10 0 -12 0 *
 Ve
-1e-07
+1.00000000222045e-07
 10.9954202103632 3.66987054326475 0
 0 0
 
@@ -244,7 +244,7 @@ Ed
 0101000
 +10 0 -8 0 *
 Ve
-1.00000001e-07
+1.00000003580362e-07
 11.0041083472016 3.65871185703932 0
 0 0
 
@@ -258,7 +258,7 @@ Ed
 0101000
 +6 0 -8 0 *
 Ve
-1e-07
+1.00000002701289e-07
 10.3889415498339 -1.28314708585013 0
 0 0
 
@@ -288,14 +288,14 @@ Wi
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="18">
 <![CDATA[
-96 PostfixCount 3
+92 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 96 2
+ElementMap 1 92 2
 
 Edge
 
