@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="CfdFluidBoundary">
+  <Properties Count="42" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="BoundarySubType" type="App::PropertyEnumeration" group="" attr="0" ro="0" hide="0" docID="13526" status="2097152">
+      <Integer value="13" CustomEnum="true"/>
+      <CustomEnumList count="17">
+<Enum value="fixedWall"/>
+<Enum value="slipWall"/>
+<Enum value="partialSlipWall"/>
+<Enum value="translatingWall"/>
+<Enum value="roughWall"/>
+<Enum value="uniformVelocityInlet"/>
+<Enum value="volumetricFlowRateInlet"/>
+<Enum value="massFlowRateInlet"/>
+<Enum value="totalPressureInlet"/>
+<Enum value="staticPressureInlet"/>
+<Enum value="staticPressureOutlet"/>
+<Enum value="uniformVelocityOutlet"/>
+<Enum value="outFlowOutlet"/>
+<Enum value="totalPressureOpening"/>
+<Enum value="farField"/>
+<Enum value="symmetry"/>
+<Enum value="porousBaffle"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="BoundaryType" type="App::PropertyEnumeration" group="" attr="0" ro="0" hide="0" docID="13525" status="2097152">
+      <Integer value="3" CustomEnum="true"/>
+      <CustomEnumList count="6">
+<Enum value="wall"/>
+<Enum value="inlet"/>
+<Enum value="outlet"/>
+<Enum value="open"/>
+<Enum value="constraint"/>
+<Enum value="baffle"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="DefaultBoundary" type="App::PropertyBool" group="Boundary faces" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="DirectionFace" type="App::PropertyString" group="Flow" attr="0" ro="0" hide="0" docID="13529" status="2097152">
+      <String value=""/>
+    </Property>
+    <Property name="DissipationRate" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13493" status="2097152">
+      <Float value="50000000"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="HeatFlux" type="App::PropertyQuantity" group="Thermal" attr="0" ro="0" hide="0" docID="13539" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="HeatTransferCoeff" type="App::PropertyQuantity" group="Thermal" attr="0" ro="0" hide="0" docID="13540" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Intermittency" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13495" status="2097152">
+      <Float value="1"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="open"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MassFlowRate" type="App::PropertyQuantity" group="Flow" attr="0" ro="0" hide="0" docID="13533" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="NuTilda" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13494" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="PorousBaffleMethod" type="App::PropertyEnumeration" group="Baffle" attr="0" ro="0" hide="0" docID="13534" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="porousCoeff"/>
+<Enum value="porousScreen"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Pressure" type="App::PropertyPressure" group="Flow" attr="0" ro="0" hide="0" docID="13487" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="PressureDropCoeff" type="App::PropertyQuantity" group="Baffle" attr="0" ro="0" hide="0" docID="13535" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="CfdFluidBoundary" class="_CfdFluidBoundary" value="null"/>
+    </Property>
+    <Property name="ReThetat" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13542" status="2097152">
+      <Float value="1"/>
+    </Property>
+    <Property name="ReverseNormal" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13530" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ScreenSpacing" type="App::PropertyLength" group="Baffle" attr="0" ro="0" hide="0" docID="13537" status="2097152">
+      <Float value="2"/>
+    </Property>
+    <Property name="ScreenWireDiameter" type="App::PropertyLength" group="Baffle" attr="0" ro="0" hide="0" docID="13536" status="2097152">
+      <Float value="0.2"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part HasherIndex="0" ElementMap="1.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 29
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              0 -1.11022302462516e-16               1               0 
+              1 1.11022302462516e-16 1.23259516440783e-32               0 
+-1.11022302462516e-16               1 1.11022302462516e-16               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+2.22044604925031e-16 -2.22044604925031e-16               1               0 
+              1 2.22044604925031e-16 -2.22044604925031e-16               0 
+-2.22044604925031e-16               1 2.22044604925031e-16               0 
+1
+-2.22044604925031e-16 -4.93038065763132e-32               1               0 
+              1               0 2.22044604925031e-16               0 
+-1.09476442525376e-47               1 4.93038065763132e-32               0 
+1
+              1               0               0 3.33066907387547e-14 
+              0               1               0 -2.08166817117217e-14 
+              0               0               1             -75 
+2  3 1 4 1 5 -1 6 1 0
+1
+              1               0               0 -6.66133814775094e-14 
+              0               1               0 4.16333634234434e-14 
+              0               0               1             150 
+2  3 1 4 1 5 -1 6 1 8 1 0
+2  4 -1 3 -1 0
+2  5 -1 6 1 2 1 0
+2  3 1 4 1 0
+1
+              1               0               0         3.3e-14 
+              0               1               0        -2.1e-14 
+              0               0               1             -75 
+1
+             -0               0               1               0 
+              1               0               0               0 
+             -0               1               0               0 
+1
+              0              -0               1               0 
+              1               0              -0               0 
+             -0               1               0               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  13 -1 14 1 15 -1 16 -1 0
+1
+              1               0               0        -6.7e-14 
+              0               1               0         4.2e-14 
+              0               0               1             150 
+2  18 -1 13 -1 14 1 15 -1 16 -1 0
+1
+              1               0               0             -75 
+              0               1               0 1.66533453693773e-14 
+              0               0               1 -2.08166817117217e-14 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+2.22044604925031e-16 -2.22044604925031e-16               1               0 
+              1 2.22044604925031e-16 -2.22044604925031e-16               0 
+-2.22044604925031e-16               1 2.22044604925031e-16               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  20 -1 21 1 22 -1 23 -1 0
+1
+              1               0               0             150 
+              0               1               0 -3.33066907387547e-14 
+              0               0               1 4.16333634234434e-14 
+2  25 -1 20 -1 21 1 22 -1 23 -1 0
+2  6 -1 5 1 4 -1 3 -1 0
+2  8 -1 6 -1 5 1 4 -1 3 -1 0
+2  5 -1 6 1 8 1 2 1 0
+Curve2ds 22
+1 180.00000000000006 2.6645352591003505e-15 2.2204460492503126e-16 -1 
+1 0 0 -2.2204460492503126e-16 -1 
+1 -49.999999999999979 90 1 -2.2204460492503136e-16 
+1 0 0 1 0 
+1 -2.354e-14 -150 1 0 
+1 0 0 1 1.2325951644078309e-32 
+1 4.8849813083506793e-15 -150 1 1.2325951644078309e-32 
+1 0 0 1 0 
+1 -2.3536728122053325e-14 -150 1 0 
+1 50.000000000000021 90 -2.2204460492503136e-16 -1 
+1 0 0 1 0 
+1 4.8849813083506951e-15 -150 1 0 
+1 0 0 1 0 
+1 3.8191672047105385e-14 -150 1 0 
+1 49.999999999999979 -90 -1 2.2204460492503136e-16 
+1 0 0 1 0 
+1 2.3536728122053325e-14 -150 1 0 
+1 -50.000000000000014 -90 2.2204460492503136e-16 1 
+1 180.00000000000006 -2.6645352591003505e-15 -2.2204460492503126e-16 -1 
+1 0 0 1.6653345369377343e-16 -1 
+1 100.00000000000003 1.7763568394002505e-15 1.6653345369377343e-16 -1 
+1 0 0 2.2204460492503126e-16 -1 
+Curves 8
+1 -69.999999999999986 -29.999999999999996 -75 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 -69.999999999999972 70.000000000000028 -75.000000000000043 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 -70 -30 0 0 1 0 
+1 -70 70 0 1 0 0 
+1 110 70 0 0 -1 0 
+1 110 -30 0 -1 0 0 
+1 110.00000000000007 69.999999999999957 -75 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+1 110.00000000000006 -30.000000000000078 -74.999999999999957 -4.4408920985006252e-16 2.7755575615628918e-16 1 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 8
+1 -69.999999999999986 -29.999999999999996 -75 -1 2.2204460492503121e-16 -4.4408920985006257e-16 2.2204460492503141e-16 1 -4.4408920985006252e-16 4.4408920985006247e-16 -4.4408920985006262e-16 -1 
+1 110.00000000000006 -30.000000000000078 -74.999999999999957 -4.4408920985006257e-16 -1 2.7755575615628899e-16 -1 4.4408920985006252e-16 -2.2204460492503136e-16 2.2204460492503123e-16 -2.7755575615628909e-16 -1 
+1 -69.999999999999972 70.000000000000028 -75.000000000000043 4.4408920985006257e-16 1 -2.7755575615628899e-16 1 -4.4408920985006252e-16 2.2204460492503136e-16 2.2204460492503123e-16 -2.7755575615628909e-16 -1 
+1 0 20.000000000000007 19.999999999999993 1 -2.2204460492503126e-16 2.2204460492503131e-16 -2.2204460492503131e-16 0 1 -2.2204460492503126e-16 -1 -4.9303806576313227e-32 
+1 -69.999999999999972 70.000000000000028 -75.000000000000043 4.4e-16 1 -2.8000000000000001e-16 1 -4.3999999999999995e-16 2.2e-16 2.1999999999999988e-16 -2.8000000000000011e-16 -1 
+1 -75.000000000000028 -69.999999999999972 70 -2.7755575615628909e-16 2.2204460492503136e-16 1 2.2204460492503131e-16 1 -2.2204460492503131e-16 -1 2.2204460492503126e-16 -2.7755575615628914e-16 
+1 -74.999999999999986 110.00000000000003 69.999999999999957 2.2204460492503136e-16 1 -2.2204460492503131e-16 2.2204460492503131e-16 -2.2204460492503136e-16 -1 -1 2.2204460492503131e-16 -2.2204460492503136e-16 
+1 110.00000000000007 69.999999999999957 -75 1 -2.2204460492503121e-16 4.4408920985006257e-16 -2.2204460492503141e-16 -1 4.4408920985006252e-16 4.4408920985006247e-16 -4.4408920985006262e-16 -1 
+Triangulations 0
+
+TShapes 21
+Ve
+1e-07
+-70 -30 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 150
+2  1 2 0 0 150
+0
+
+0101000
++21 7 -21 9 *
+Ve
+1e-07
+-70 70 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 150
+2  2 3 0 0 150
+0
+
+0101000
++19 7 -19 9 *
+Ed
+ 1e-07 1 1 0
+1  3 0 0 100
+2  3 4 10 0 100
+0
+
+0101000
++21 0 -19 0 *
+Wi
+
+0101100
++20 0 -18 0 -17 7 +17 9 *
+Fa
+0  1e-07 1 0
+
+0101000
++16 0 *
+Ve
+1e-07
+110 70 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 180
+2  4 5 17 0 180
+2  5 5 19 0 180
+2  6 6 24 0 180
+2  7 6 26 0 180
+2  8 3 27 0 180
+2  9 3 28 0 180
+2  10 4 10 0 180
+0
+
+0101000
++19 0 -14 0 *
+Ve
+1e-07
+110 -30 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  5 0 0 100
+2  11 7 24 0 100
+2  12 7 26 0 100
+2  13 8 27 0 100
+2  14 8 28 0 100
+2  15 4 10 0 100
+0
+
+0101000
++14 0 -12 0 *
+Ed
+ 1e-07 1 1 0
+1  6 0 0 180
+2  16 2 27 0 180
+2  17 2 28 0 180
+2  18 4 10 0 180
+0
+
+0101000
++12 0 -21 0 *
+Wi
+
+0101100
++13 0 +11 0 +10 0 +17 0 *
+Fa
+0  1e-07 4 0
+
+0101000
+-9 12 *
+Ed
+ 1e-07 1 1 0
+1  7 0 0 150
+2  19 3 0 0 150
+2  20 8 0 0 150
+0
+
+0101000
++14 7 -14 9 *
+Wi
+
+0101100
++18 0 -7 0 -13 7 +13 9 *
+Fa
+0  1e-07 3 0
+
+0101000
++6 0 *
+Ed
+ 1e-07 1 1 0
+1  8 0 0 150
+2  21 8 0 0 150
+2  22 2 0 0 150
+0
+
+0101000
++12 7 -12 9 *
+Wi
+
+0101100
++7 0 -4 0 -11 7 +11 9 *
+Fa
+0  1e-07 8 0
+
+0101000
++3 0 *
+Co
+
+1100000
++15 2 -8 11 +5 2 +8 29 +2 2 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="25">
+<![CDATA[
+6 PostfixCount 18
+Edge
+Face
+Vertex
+;:Hc53,V;:Hc54,V
+;:Hc53,V;:Hc54,V;D1;:Hc54:3,V
+;:Hc53,V;:Hc54,V;D2;:Hc54:3,V
+;:Hc53,E;:Hc54,E
+;:Hc53,E;:Hc54,E;D1;:Hc54:3,E
+;:G;XTR;:Hc53:7,F;:Hc54,F
+;FAC;:Hc53:4,F;:Hc54,F
+;:G;XTR;:Hc53:7,E;:Hc54,E
+;:G;XTR;:Hc53:7,E;:Hc54,E;D1;:Hc54:3,E
+;:G0;XTR;:Hc53:8,F;:Hc54,F
+;:U;XTR;:Hc53:7,E;:Hc54,E
+;:U;XTR;:Hc53:7,E;:Hc54,E;D1;:Hc54:3,E
+;:U;XTR;:Hc53:7,V;:Hc54,V
+;:U;XTR;:Hc53:7,V;:Hc54,V;D1;:Hc54:3,V
+;:U;XTR;:Hc53:7,V;:Hc54,V;D2;:Hc54:3,V
+
+MapCount 2
+
+ElementMap 1 7 3
+
+Edge
+
+ChildCount 0
+
+NameCount 21
+0
+$#26.b 0
+$#23.b 0
+$#1f.7 0
+$#30.e 0
+$#1c.7 0
+$#1d.7 0
+$#1e.7 0
+$#1f.8 0
+$#23.c 0
+$#24.b 0
+$#1c.8 0
+$#2d.e 0
+$#2d.f 0
+$#2e.e 0
+$#2f.e 0
+$#30.f 0
+$#24.c 0
+$#25.b 0
+$#1d.8 0
+$#2e.f 0
+
+Face
+
+ChildCount 0
+
+NameCount 6
+0
+$#29.9 0
+$#21.a 0
+$#21.9 0
+$#2b.d 0
+$#27.9 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 21
+0
+$#1a.4 0
+$#35.10 0
+$#14.4 0
+$#32.10 0
+$#14.5 0
+$#16.4 0
+$#18.4 0
+$#1a.5 0
+$#14.6 0
+$#32.11 0
+$#16.5 0
+$#33.10 0
+$#32.12 0
+$#33.11 0
+$#34.10 0
+$#35.11 0
+$#16.6 0
+$#33.12 0
+$#18.5 0
+$#34.11 0
+
+EndMap
+
+ElementMap 2 6 3
+
+Edge
+
+ChildCount 1
+1 0 12 0 1 ;:H,E 0
+
+NameCount 0
+
+Face
+
+ChildCount 1
+1 0 5 0 1 ;:H,F 0
+
+NameCount 0
+
+Vertex
+
+ChildCount 1
+1 0 8 0 1 ;:H,V 0
+
+NameCount 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="ShapeRefs" type="App::PropertyLinkSubList" group="" attr="0" ro="0" hide="0" docID="13524" status="2097152">
+      <LinkSubList count="5">
+        <Link obj="Pad" sub="Face4" shadow=";#29;:G;XTR;:Hc53:7,F.Face4"/>
+        <Link obj="Pad" sub="Face5" shadow=";#21;FAC;:Hc53:4,F.Face5"/>
+        <Link obj="Pad" sub="Face1" shadow=";#21;:G;XTR;:Hc53:7,F.Face1"/>
+        <Link obj="Pad" sub="Face6" shadow=";#2b;:G0;XTR;:Hc53:8,F.Face6"/>
+        <Link obj="Pad" sub="Face2" shadow=";#27;:G;XTR;:Hc53:7,F.Face2"/>
+      </LinkSubList>
+    </Property>
+    <Property name="SlipRatio" type="App::PropertyQuantity" group="Flow" attr="0" ro="0" hide="0" docID="13531" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="SpecificDissipationRate" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13492" status="2097152">
+      <Float value="57"/>
+    </Property>
+    <Property name="Temperature" type="App::PropertyQuantity" group="Thermal" attr="0" ro="0" hide="0" docID="13489" status="2097152">
+      <Float value="290"/>
+    </Property>
+    <Property name="ThermalBoundaryType" type="App::PropertyEnumeration" group="Thermal" attr="0" ro="0" hide="0" docID="13538" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="4">
+<Enum value="fixedValue"/>
+<Enum value="zeroGradient"/>
+<Enum value="fixedGradient"/>
+<Enum value="heatTransferCoeff"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="560"/>
+    </Property>
+    <Property name="TurbulenceInletSpecification" type="App::PropertyEnumeration" group="Turbulence" attr="0" ro="0" hide="0" docID="13541" status="2097152">
+      <Integer value="4" CustomEnum="true"/>
+      <CustomEnumList count="5">
+<Enum value="TKESpecDissipationRateGammaAndReThetat"/>
+<Enum value="TransportedNuTilda"/>
+<Enum value="TKEAndDissipationRate"/>
+<Enum value="TKEAndSpecDissipationRate"/>
+<Enum value="intensityAndLengthScale"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="TurbulenceIntensity" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13543" status="2097152">
+      <Float value="0.1"/>
+    </Property>
+    <Property name="TurbulenceLengthScale" type="App::PropertyLength" group="Turbulence" attr="0" ro="0" hide="0" docID="13544" status="2097152">
+      <Float value="100"/>
+    </Property>
+    <Property name="TurbulentKineticEnergy" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13491" status="2097152">
+      <Float value="10000"/>
+    </Property>
+    <Property name="Ux" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13484" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Uy" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13485" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Uz" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13486" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="VelocityIsCartesian" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13527" status="2097152">
+      <Bool value="true"/>
+    </Property>
+    <Property name="VelocityMag" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13528" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="false"/>
+    </Property>
+    <Property name="VolFlowRate" type="App::PropertyQuantity" group="Flow" attr="0" ro="0" hide="0" docID="13532" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="VolumeFractions" type="App::PropertyMap" group="Volume fraction" attr="0" ro="0" hide="0" docID="13545" status="2097152">
+      <Map count="0">
+      </Map>
+    </Property>
+  </Properties>
+</Object>
+</Document>

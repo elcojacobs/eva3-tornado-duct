@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="FluidProperties">
+  <Properties Count="9" TransientCount="0">
+    <Property name="Category" type="App::PropertyEnumeration" group="Material" attr="0" ro="0" hide="0" docID="13479" status="2097152">
+      <Integer value="1" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="Solid"/>
+<Enum value="Fluid"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="FluidProperties"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="7">
+<Item key="AuthorAndLicense" value=""/>
+<Item key="CardName" value="AirIsothermal"/>
+<Item key="Density" value="1.20 kg/m^3"/>
+<Item key="Description" value="Standard air properties at 20 Degrees Celsius and 1 atm"/>
+<Item key="DynamicViscosity" value="1.80e-5 kg/m/s"/>
+<Item key="Name" value="Air"/>
+<Item key="Type" value="Isothermal"/>
+      </Map>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="CfdFluidMaterial" class="_CfdMaterial" cdata="1">
+<![CDATA[
+{
+  "Type": "CfdMaterial"
+}
+]]>
+      </Python>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList" group="Material" attr="0" ro="0" hide="0" docID="13478" status="2097152">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="555"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

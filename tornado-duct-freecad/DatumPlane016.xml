@@ -21,14 +21,14 @@
     <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
-    <Property name="Label" type="App::PropertyString" status="134217729">
+    <Property name="Label" type="App::PropertyString" status="134217728">
       <String value="L-inner-zplane"/>
     </Property>
     <Property name="Label2" type="App::PropertyString" status="128">
       <String value=""/>
     </Property>
     <Property name="Length" type="App::PropertyLength" status="134217732">
-      <Float value="86.62411613058977"/>
+      <Float value="14.82783860754006"/>
     </Property>
     <Property name="MapMode" type="App::PropertyEnumeration">
       <Integer value="13"/>
@@ -93,7 +93,7 @@ Fa
       <Bool value="false"/>
     </Property>
     <Property name="Width" type="App::PropertyLength" status="134217732">
-      <Float value="73.30273342132568"/>
+      <Float value="10"/>
     </Property>
   </Properties>
 </Object>

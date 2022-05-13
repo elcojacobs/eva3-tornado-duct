@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="PhysicsModel">
+  <Properties Count="18" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Flow" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13470" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="3">
+<Enum value="Incompressible"/>
+<Enum value="Compressible"/>
+<Enum value="HighMachCompressible"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="PhysicsModel"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Phase" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13472" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="Single"/>
+<Enum value="FreeSurface"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="CfdPhysicsSelection" class="_CfdPhysicsModel" cdata="1">
+<![CDATA[
+{
+  "Type": "PhysicsModel"
+}
+]]>
+      </Python>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part ElementMap="0.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 0
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 0
+Triangulations 0
+
+TShapes 0
+
+*]]>
+      </Part>
+      <ElementMap/>
+    </Property>
+    <Property name="Thermal" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13471" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="None"/>
+<Enum value="Energy"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Time" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13469" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="Steady"/>
+<Enum value="Transient"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="554"/>
+    </Property>
+    <Property name="Turbulence" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13473" status="2097152">
+      <Integer value="2" CustomEnum="true"/>
+      <CustomEnumList count="3">
+<Enum value="Inviscid"/>
+<Enum value="Laminar"/>
+<Enum value="RANS"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="TurbulenceModel" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13474" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="4">
+<Enum value="kOmegaSST"/>
+<Enum value="kEpsilon"/>
+<Enum value="SpalartAllmaras"/>
+<Enum value="kOmegaSSTLM"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="gx" type="App::PropertyAcceleration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13475" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="gy" type="App::PropertyAcceleration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13476" status="2097152">
+      <Float value="-9800"/>
+    </Property>
+    <Property name="gz" type="App::PropertyAcceleration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13477" status="2097152">
+      <Float value="0"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

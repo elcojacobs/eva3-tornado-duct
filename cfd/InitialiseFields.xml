@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="InitialiseFields">
+  <Properties Count="31" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="BoundaryP" type="App::PropertyLink" group="" attr="0" ro="0" hide="0" docID="13499" status="2097152">
+      <Link value="CfdFluidBoundary"/>
+    </Property>
+    <Property name="BoundaryT" type="App::PropertyLink" group="" attr="0" ro="0" hide="0" docID="13500" status="2097152">
+      <Link value="CfdFluidBoundary"/>
+    </Property>
+    <Property name="BoundaryTurb" type="App::PropertyLink" group="" attr="0" ro="0" hide="0" docID="13501" status="2097152">
+      <Link value="CfdFluidBoundary"/>
+    </Property>
+    <Property name="BoundaryU" type="App::PropertyLink" group="" attr="0" ro="0" hide="0" docID="13498" status="2097152">
+      <Link value="CfdFluidBoundary004"/>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="InitialiseFields"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="PotentialFlow" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13480" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="PotentialFlowP" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13481" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Pressure" type="App::PropertyPressure" group="Flow" attr="0" ro="0" hide="0" docID="13487" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="CfdInitialiseFlowField" class="_CfdInitialVariables" cdata="1">
+<![CDATA[
+{
+  "Type": "InitialVariables"
+}
+]]>
+      </Python>
+    </Property>
+    <Property name="ReThetat" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13496" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part ElementMap="0.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 0
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 0
+Triangulations 0
+
+TShapes 0
+
+*]]>
+      </Part>
+      <ElementMap/>
+    </Property>
+    <Property name="Temperature" type="App::PropertyQuantity" group="Thermal" attr="0" ro="0" hide="0" docID="13489" status="2097152">
+      <Float value="290"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="556"/>
+    </Property>
+    <Property name="UseInletTemperatureValue" type="App::PropertyBool" group="Thermal" attr="0" ro="0" hide="0" docID="13488" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="UseInletTurbulenceValues" type="App::PropertyBool" group="Turbulence" attr="0" ro="0" hide="0" docID="13490" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="UseInletUValues" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13482" status="2097152">
+      <Bool value="true"/>
+    </Property>
+    <Property name="UseOutletPValue" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13483" status="2097152">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Ux" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13484" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Uy" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13485" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Uz" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13486" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="VolumeFractions" type="App::PropertyMap" group="Volume Fraction" attr="0" ro="0" hide="0" docID="13497" status="2097152">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="epsilon" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13493" status="2097152">
+      <Float value="50000000"/>
+    </Property>
+    <Property name="gammaInt" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13495" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="k" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13491" status="2097152">
+      <Float value="10000"/>
+    </Property>
+    <Property name="nuTilda" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13494" status="2097152">
+      <Float value="55000000"/>
+    </Property>
+    <Property name="omega" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13492" status="2097152">
+      <Float value="57"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

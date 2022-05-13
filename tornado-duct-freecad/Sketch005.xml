@@ -60,7 +60,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="2" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge193;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="6.200000000000219" CenterY="17.561284993073" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="4.188790204786391" EndAngle="4.712388980384689"/>
+          <ArcOfCircle CenterX="6.200000000000219" CenterY="17.561284993073" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="4.188790204786391" EndAngle="4.712388980384689"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="3" ref="Import.;Edge194;:H11e0,E" flags="1" migrated="1">
@@ -76,7 +76,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="4" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge195;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="2.200000000000219" CenterY="18.8" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="1" StartAngle="4.71238898038469" EndAngle="6.283185307179586"/>
+          <ArcOfCircle CenterX="2.200000000000219" CenterY="18.8" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="1" StartAngle="4.71238898038469" EndAngle="6.283185307179586"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="6" ref="Import.;Edge200;:H11e0,E" flags="1" migrated="1">
@@ -92,7 +92,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="7" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge199;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="25.40000000000022" CenterY="10.7" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="1.570796326794897" EndAngle="3.141592653589793"/>
+          <ArcOfCircle CenterX="25.40000000000022" CenterY="10.7" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="1.570796326794897" EndAngle="3.141592653589793"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="8" ref="Import.;Edge198;:H11e0,E" flags="1" migrated="1">
@@ -108,7 +108,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="9" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge197;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="25.40000000000022" CenterY="17.8" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="0" EndAngle="1.570796326794897"/>
+          <ArcOfCircle CenterX="25.40000000000022" CenterY="17.8" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="0" EndAngle="1.570796326794897"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomArcOfCircle" id="24" ref="Import.;Edge191;:H11e0,E" flags="1" migrated="1">
@@ -116,7 +116,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="24" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge191;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="8.429313930168748" CenterY="13.7" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="3.141592653589793" EndAngle="4.18879020478639"/>
+          <ArcOfCircle CenterX="8.429313930168748" CenterY="13.7" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="3.141592653589793" EndAngle="4.18879020478639"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="27" ref="Import.;Edge196;:H11e0,E" flags="1" migrated="1">
@@ -140,7 +140,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="30" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge206;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="-8.429313930168311" CenterY="13.7" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="2.094395102393197" EndAngle="3.141592653589793"/>
+          <ArcOfCircle CenterX="-8.429313930168311" CenterY="13.7" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="2.094395102393197" EndAngle="3.141592653589793"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomArcOfCircle" id="31" ref="Import.;Edge208;:H11e0,E" flags="1" migrated="1">
@@ -148,7 +148,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="31" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge208;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="-25.39999999999978" CenterY="10.7" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="3.141592653589793" EndAngle="4.71238898038469"/>
+          <ArcOfCircle CenterX="-25.39999999999978" CenterY="10.7" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="3.141592653589793" EndAngle="4.71238898038469"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="32" ref="Import.;Edge209;:H11e0,E" flags="1" migrated="1">
@@ -164,7 +164,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="33" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge210;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="-25.39999999999978" CenterY="17.8" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="4.71238898038469" EndAngle="6.283185307179586"/>
+          <ArcOfCircle CenterX="-25.39999999999978" CenterY="17.8" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="2" StartAngle="4.71238898038469" EndAngle="6.283185307179586"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="34" ref="Import.;Edge201;:H11e0,E" flags="1" migrated="1">
@@ -180,7 +180,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="35" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge202;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="-2.199999999999782" CenterY="18.8" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="1" StartAngle="0" EndAngle="1.570796326794897"/>
+          <ArcOfCircle CenterX="-2.199999999999782" CenterY="18.8" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="1" StartAngle="0" EndAngle="1.570796326794897"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="36" ref="Import.;Edge203;:H11e0,E" flags="1" migrated="1">
@@ -196,7 +196,7 @@
             <GeoExtension type="Sketcher::SketchGeometryExtension" id="37" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000010"/>
             <GeoExtension type="Sketcher::ExternalGeometryExtension" Ref="Import.;Edge204;:H11e0,E" Flags="1"/>
           </GeoExtensions>
-          <ArcOfCircle CenterX="-6.199999999999782" CenterY="17.561284993073" CenterZ="0" NormalX="0" NormalY="2.220446049250313e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="1.570796326794897" EndAngle="2.094395102393196"/>
+          <ArcOfCircle CenterX="-6.199999999999782" CenterY="17.561284993073" CenterZ="0" NormalX="0" NormalY="2e-16" NormalZ="-1" AngleXU="-3.141592653589793" Radius="5" StartAngle="1.570796326794897" EndAngle="2.094395102393196"/>
           <Construction value="1"/>
         </Geometry>
         <Geometry type="Part::GeomLineSegment" id="50" ref="Import.;Edge207;:H11e0,E" flags="1" migrated="1">
@@ -270,26 +270,26 @@ Locations 1
               0               1 2.22044604925031e-16               0 
 Curve2ds 0
 Curves 20
-2 25.400000000000219 17.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 2
+2 25.400000000000219 17.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 2
 1 27.400000000000222 17.799999999999994 0 0 -1 0 
-2 25.400000000000219 10.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 2
+2 25.400000000000219 10.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 2
 1 25.400000000000219 8.6999999999999957 0 -1 0 0 
-2 8.4293139301687479 13.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 5
+2 8.4293139301687479 13.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 5
 1 4.0991869112466315 11.200000000000003 0 -0.49999999999999928 0.86602540378443904 0 
-2 6.2000000000002187 17.561284993073002 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 5
+2 6.2000000000002187 17.561284993073002 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 5
 1 1.2000000000002184 17.561284993072992 0 0 1 0 
-2 2.2000000000002187 18.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 1
+2 2.2000000000002187 18.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 1
 1 25.400000000000215 19.799999999999997 0 -1 1.5313421029312505e-16 0 
 1 -25.399999999999793 8.7000000000000028 0 1 -4.1868827979984895e-16 0 
-2 -8.4293139301683109 13.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 5
+2 -8.4293139301683109 13.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 5
 1 -4.0991869112461927 11.199999999999996 0 0.49999999999999872 0.86602540378443948 0 
-2 -6.1999999999997817 17.561284993073002 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 5
+2 -6.1999999999997817 17.561284993073002 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 5
 1 -1.1999999999997815 17.561284993072992 0 0 1 0 
-2 -2.1999999999997817 18.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 1
+2 -2.1999999999997817 18.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 1
 1 -25.399999999999775 19.799999999999997 0 1 1.5313421029312507e-16 0 
-2 -25.399999999999778 17.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 2
+2 -25.399999999999778 17.800000000000001 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 2
 1 -27.399999999999782 17.799999999999994 0 0 -1 0 
-2 -25.399999999999778 10.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 0 0 2
+2 -25.399999999999778 10.699999999999999 0 0 2.2204460492503131e-16 -1 0 1 2.2204460492503131e-16 1 -0 0 2
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
@@ -596,14 +596,14 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="40">
 <![CDATA[
-54 PostfixCount 3
+51 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 2
 
-ElementMap 1 55 2
+ElementMap 1 52 2
 
 Edge
 
@@ -641,7 +641,7 @@ NameCount 11
 
 EndMap
 
-ElementMap 2 54 2
+ElementMap 2 51 2
 
 Edge
 

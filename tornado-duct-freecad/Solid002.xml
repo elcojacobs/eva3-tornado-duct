@@ -2513,11 +2513,11 @@ So
       </Part>
       <ElementMap/>
     </Property>
-    <Property name="TreeRank" type="App::PropertyInteger" status="2185">
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
       <Integer value="1903"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">
-      <Bool value="true"/>
+      <Bool value="false"/>
     </Property>
   </Properties>
 </Object>

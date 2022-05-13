@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- FreeCAD ViewProvider -->
 <Document SchemaVersion="1" FileVersion="2">
-<ViewProvider name="Pipe011" expanded="1" Extensions="True">
+<ViewProvider name="Pipe011" expanded="0" Extensions="True">
   <Extensions Count="2">
     <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
     </Extension>
@@ -33,7 +33,7 @@ cccccc00
       <Bool value="false"/>
     </Property>
     <Property name="IconColor" type="App::PropertyColor" status="1">
-      <PropertyColor value="4213247"/>
+      <PropertyColor value="1417085183"/>
     </Property>
     <Property name="Lighting" type="App::PropertyEnumeration" status="1">
       <Integer value="1"/>
