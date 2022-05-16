@@ -21,11 +21,35 @@
       <Float value="0.2"/>
     </Property>
     <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-      <ColorList count="148" >
+      <ColorList count="145" >
 cccccc00
 cccccc00
 cccccc00
 cccccc00
+4d4d4d00
+4d4d4d00
+cccccc00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+cccccc00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+cccccc00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+4d4d4d00
+cccccc00
+4d4d4d00
+4d4d4d00
 4d4d4d00
 cccccc00
 cccccc00
@@ -63,50 +87,46 @@ cccccc00
 cccccc00
 cccccc00
 cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-4d4d4d00
-4d4d4d00
-4d4d4d00
-4d4d4d00
-4d4d4d00
 4d4d4d00
 4d4d4d00
 4d4d4d00
 cccccc00
 4d4d4d00
+cccccc00
+cccccc00
+cccccc00
+cccccc00
+4d4d4d00
+cccccc00
+cccccc00
+cccccc00
+4d4d4d00
+cccccc00
+cccccc00
+cccccc00
+4d4d4d00
+cccccc00
+cccccc00
+cccccc00
+4d4d4d00
+cccccc00
+cccccc00
+4d4d4d00
+4d4d4d00
+cccccc00
+cccccc00
 4d4d4d00
 cccccc00
 4d4d4d00
 cccccc00
 cccccc00
+4d4d4d00
+4d4d4d00
 cccccc00
 cccccc00
 cccccc00
 cccccc00
-cccccc00
-cccccc00
+4d4d4d00
 cccccc00
 4d4d4d00
 cccccc00
@@ -127,30 +147,7 @@ cccccc00
 cccccc00
 cccccc00
 cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
 4d4d4d00
-4d4d4d00
-4d4d4d00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
-cccccc00
 cccccc00
 cccccc00
 cccccc00
@@ -185,7 +182,7 @@ cccccc00
       <Bool value="false"/>
     </Property>
     <Property name="IconColor" type="App::PropertyColor" status="1">
-      <PropertyColor value="3170912255"/>
+      <PropertyColor value="905988863"/>
     </Property>
     <Property name="Lighting" type="App::PropertyEnumeration" status="1">
       <Integer value="1"/>
@@ -261,7 +258,7 @@ cccccc00
       <Integer value="0"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="1">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
   </Properties>
 </ViewProvider>

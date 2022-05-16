@@ -81,20 +81,31 @@ TShapes 0
       <Integer value="554"/>
     </Property>
     <Property name="Turbulence" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13473" status="2097152">
-      <Integer value="2" CustomEnum="true"/>
-      <CustomEnumList count="3">
+      <Integer value="3" CustomEnum="true"/>
+      <CustomEnumList count="5">
 <Enum value="Inviscid"/>
 <Enum value="Laminar"/>
+<Enum value="DES"/>
 <Enum value="RANS"/>
+<Enum value="LES"/>
       </CustomEnumList>
     </Property>
     <Property name="TurbulenceModel" type="App::PropertyEnumeration" group="Physics modelling" attr="0" ro="0" hide="0" docID="13474" status="2097152">
       <Integer value="0" CustomEnum="true"/>
-      <CustomEnumList count="4">
+      <CustomEnumList count="13">
 <Enum value="kOmegaSST"/>
 <Enum value="kEpsilon"/>
 <Enum value="SpalartAllmaras"/>
 <Enum value="kOmegaSSTLM"/>
+<Enum value="kOmegaSSTDES"/>
+<Enum value="kOmegaSSTDDES"/>
+<Enum value="kOmegaSSTIDDES"/>
+<Enum value="SpalartAllmarasDES"/>
+<Enum value="SpalartAllmarasDDES"/>
+<Enum value="SpalartAllmarasIDDES"/>
+<Enum value="kEqn"/>
+<Enum value="Smagorinsky"/>
+<Enum value="WALE"/>
       </CustomEnumList>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="648">

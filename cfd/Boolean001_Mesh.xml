@@ -6,7 +6,7 @@
     <Extension type="App::GroupExtension" name="GroupExtension">
     </Extension>
   </Extensions>
-  <Properties Count="24" TransientCount="1">
+  <Properties Count="25" TransientCount="1">
     <_Property name="_GroupTouched" type="App::PropertyBool" status="100663296"/>
     <Property name="CaseName" type="App::PropertyString" group="" attr="0" ro="0" hide="0" docID="13511" status="2097152">
       <String value="meshCase"/>
@@ -24,7 +24,7 @@
       <Bool value="false"/>
     </Property>
     <Property name="EdgeRefinement" type="App::PropertyFloat" group="Mesh Parameters" attr="0" ro="0" hide="0" docID="13520" status="2097152">
-      <Float value="0.25"/>
+      <Float value="0.5"/>
     </Property>
     <Property name="ElementDimension" type="App::PropertyEnumeration" group="Mesh Parameters" attr="0" ro="0" hide="0" docID="13523" status="2097152">
       <Integer value="1" CustomEnum="true"/>
@@ -40,11 +40,16 @@
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
     <Property name="Group" type="App::PropertyLinkList">
-      <LinkList count="0">
+      <LinkList count="1">
+        <Link value="MeshRefinement"/>
       </LinkList>
     </Property>
+    <Property name="HiddenChildren" type="App::PropertyMap" group="Group" attr="8" ro="1" hide="1" doc="" status="220200960">
+      <Map count="0">
+      </Map>
+    </Property>
     <Property name="ImplicitEdgeDetection" type="App::PropertyBool" group="Mesh Parameters" attr="0" ro="0" hide="0" docID="13522" status="2097152">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
     <Property name="Label" type="App::PropertyString" status="134217728">
       <String value="Boolean001_Mesh"/>
@@ -54,9 +59,10 @@
     </Property>
     <Property name="MeshUtility" type="App::PropertyEnumeration" group="Mesh Parameters" attr="0" ro="0" hide="0" docID="13516" status="2097152">
       <Integer value="1" CustomEnum="true"/>
-      <CustomEnumList count="3">
+      <CustomEnumList count="4">
 <Enum value="cfMesh"/>
 <Enum value="snappyHexMesh"/>
+<Enum value="gmsh"/>
 <Enum value="gmsh"/>
       </CustomEnumList>
     </Property>
@@ -71,9 +77,9 @@
     </Property>
     <Property name="PointInMesh" type="App::PropertyMap" group="Mesh Parameters" attr="0" ro="0" hide="0" docID="13518" status="2097152">
       <Map count="3">
-<Item key="x" value="0.0 mm"/>
-<Item key="y" value="0.0 mm"/>
-<Item key="z" value="0.0 mm"/>
+<Item key="x" value="47.0 mm"/>
+<Item key="y" value="-15.0 mm"/>
+<Item key="z" value="-7.4 mm"/>
       </Map>
     </Property>
     <Property name="Proxy" type="App::PropertyPythonObject">
@@ -97,7 +103,7 @@
       </LinkList>
     </Property>
     <Property name="_GroupVersion" type="App::PropertyInteger" status="218103808">
-      <Integer value="0"/>
+      <Integer value="1"/>
     </Property>
   </Properties>
 </Object>

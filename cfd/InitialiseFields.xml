@@ -2,7 +2,7 @@
 <!-- FreeCAD DocumentObject -->
 <Document SchemaVersion="4" FileVersion="2">
 <Object name="InitialiseFields">
-  <Properties Count="31" TransientCount="1">
+  <Properties Count="34" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="BoundaryP" type="App::PropertyLink" group="" attr="0" ro="0" hide="0" docID="13499" status="2097152">
       <Link value="CfdFluidBoundary"/>
@@ -33,7 +33,7 @@
       <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
     </Property>
     <Property name="PotentialFlow" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13480" status="2097152">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
     <Property name="PotentialFlowP" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13481" status="2097152">
       <Bool value="false"/>
@@ -85,7 +85,7 @@ TShapes 0
       <Bool value="false"/>
     </Property>
     <Property name="UseInletUValues" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13482" status="2097152">
-      <Bool value="true"/>
+      <Bool value="false"/>
     </Property>
     <Property name="UseOutletPValue" type="App::PropertyBool" group="Flow" attr="0" ro="0" hide="0" docID="13483" status="2097152">
       <Bool value="true"/>
@@ -115,8 +115,17 @@ TShapes 0
     <Property name="k" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13491" status="2097152">
       <Float value="10000"/>
     </Property>
+    <Property name="kEqnNut" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="98000" status="2097152">
+      <Float value="50000000"/>
+    </Property>
+    <Property name="kEqnk" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13491" status="2097152">
+      <Float value="10000"/>
+    </Property>
     <Property name="nuTilda" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13494" status="2097152">
       <Float value="55000000"/>
+    </Property>
+    <Property name="nut" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="98000" status="2097152">
+      <Float value="50000000"/>
     </Property>
     <Property name="omega" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13492" status="2097152">
       <Float value="57"/>

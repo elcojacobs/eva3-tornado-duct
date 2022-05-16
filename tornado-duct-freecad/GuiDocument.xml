@@ -5,7 +5,7 @@
 <Document SchemaVersion="1" FileVersion="2" Split="1" HasExpansion="1">
 <Expand  count="2">
   <Expand name="Part014"/>
-  <Expand name="Body" count="8">
+  <Expand name="Body" count="7">
     <Expand name="Pad"/>
     <Expand name="Pad001"/>
     <Expand name="Pad002"/>
@@ -19,20 +19,19 @@
       <Expand name="Mixed_curve039"/>
     </Expand>
     <Expand name="Boolean002"/>
-    <Expand name="Boolean003"/>
   </Expand>
 </Expand>
   <Camera extra="0" id="1" binding="0">
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 7.8054085 -139.53009 78.029488
-  orientation 0.39368612 0.1458084 0.90760744  1.5706955
-  nearDistance 58.802414
-  farDistance 129.89096
+  position 42.636837 -44.272041 156.49854
+  orientation 0.076249547 -0.027362145 0.99671328  2.2274928
+  nearDistance 128.12833
+  farDistance 170.40419
   aspectRatio 1
   focalDistance 62.305412
-  height 277.32904
+  height 102.02377
 
 }
 ## overrideMode: As Is]]>

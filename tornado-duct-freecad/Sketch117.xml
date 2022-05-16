@@ -307,14 +307,14 @@ Wi
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="24">
 <![CDATA[
-60 PostfixCount 3
+61 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 1
 
-ElementMap 1 60 2
+ElementMap 1 61 2
 
 Edge
 
@@ -358,7 +358,7 @@ EndMap
     <Property name="TreeRank" type="App::PropertyInteger" status="2184">
       <Integer value="1710"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="648">
+    <Property name="Visibility" type="App::PropertyBool" status="649">
       <Bool value="true"/>
     </Property>
   </Properties>

@@ -2,7 +2,7 @@
 <!-- FreeCAD DocumentObject -->
 <Document SchemaVersion="4" FileVersion="2">
 <Object name="CfdFluidBoundary">
-  <Properties Count="42" TransientCount="1">
+  <Properties Count="45" TransientCount="1">
     <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
     <Property name="BoundarySubType" type="App::PropertyEnumeration" group="" attr="0" ro="0" hide="0" docID="13526" status="2097152">
       <Integer value="13" CustomEnum="true"/>
@@ -117,7 +117,7 @@ Locations 29
               0               0               1               0 
 1
               0 -1.11022302462516e-16               1               0 
-              1 1.11022302462516e-16 1.23259516440783e-32               0 
+              1 1.11022302462516e-16 1.23259516440784e-32               0 
 -1.11022302462516e-16               1 1.11022302462516e-16               0 
 1
               1               0               0               0 
@@ -129,7 +129,7 @@ Locations 29
 -2.22044604925031e-16               1 2.22044604925031e-16               0 
 1
 -2.22044604925031e-16 -4.93038065763132e-32               1               0 
-              1               0 2.22044604925031e-16               0 
+              1 -9.72346137165803e-63 2.22044604925031e-16               0 
 -1.09476442525376e-47               1 4.93038065763132e-32               0 
 1
               1               0               0 3.33066907387547e-14 
@@ -540,22 +540,27 @@ EndMap
     </Property>
     <Property name="TurbulenceInletSpecification" type="App::PropertyEnumeration" group="Turbulence" attr="0" ro="0" hide="0" docID="13541" status="2097152">
       <Integer value="4" CustomEnum="true"/>
-      <CustomEnumList count="5">
-<Enum value="TKESpecDissipationRateGammaAndReThetat"/>
-<Enum value="TransportedNuTilda"/>
-<Enum value="TKEAndDissipationRate"/>
+      <CustomEnumList count="7">
 <Enum value="TKEAndSpecDissipationRate"/>
+<Enum value="TurbulentViscosityAndK"/>
+<Enum value="TransportedNuTilda"/>
+<Enum value="TurbulentViscosity"/>
 <Enum value="intensityAndLengthScale"/>
+<Enum value="TKESpecDissipationRateGammaAndReThetat"/>
+<Enum value="TKEAndDissipationRate"/>
       </CustomEnumList>
     </Property>
-    <Property name="TurbulenceIntensity" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13543" status="2097152">
-      <Float value="0.1"/>
+    <Property name="TurbulenceIntensityPercentage" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="98001" status="2097152">
+      <Float value="10"/>
     </Property>
     <Property name="TurbulenceLengthScale" type="App::PropertyLength" group="Turbulence" attr="0" ro="0" hide="0" docID="13544" status="2097152">
       <Float value="100"/>
     </Property>
     <Property name="TurbulentKineticEnergy" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="13491" status="2097152">
       <Float value="10000"/>
+    </Property>
+    <Property name="TurbulentViscosity" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="98000" status="2097152">
+      <Float value="50000000"/>
     </Property>
     <Property name="Ux" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13484" status="2097152">
       <Float value="0"/>
@@ -572,7 +577,7 @@ EndMap
     <Property name="VelocityMag" type="App::PropertySpeed" group="Flow" attr="0" ro="0" hide="0" docID="13528" status="2097152">
       <Float value="0"/>
     </Property>
-    <Property name="Visibility" type="App::PropertyBool" status="649">
+    <Property name="Visibility" type="App::PropertyBool" status="648">
       <Bool value="false"/>
     </Property>
     <Property name="VolFlowRate" type="App::PropertyQuantity" group="Flow" attr="0" ro="0" hide="0" docID="13532" status="2097152">
@@ -581,6 +586,12 @@ EndMap
     <Property name="VolumeFractions" type="App::PropertyMap" group="Volume fraction" attr="0" ro="0" hide="0" docID="13545" status="2097152">
       <Map count="0">
       </Map>
+    </Property>
+    <Property name="kEqnTurbulentKineticEnergy" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="98000" status="2097152">
+      <Float value="10000"/>
+    </Property>
+    <Property name="kEqnTurbulentViscosity" type="App::PropertyQuantity" group="Turbulence" attr="0" ro="0" hide="0" docID="98000" status="2097152">
+      <Float value="50000000"/>
     </Property>
   </Properties>
 </Object>

@@ -1743,14 +1743,14 @@ Co
       <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
       <ElementMap2 count="72">
 <![CDATA[
-18 PostfixCount 3
+16 PostfixCount 3
 Edge
 Vertex
 ;SKT
 
 MapCount 2
 
-ElementMap 1 19 2
+ElementMap 1 17 2
 
 Edge
 
@@ -1780,7 +1780,7 @@ NameCount 7
 
 EndMap
 
-ElementMap 2 18 2
+ElementMap 2 16 2
 
 Edge
 

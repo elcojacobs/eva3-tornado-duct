@@ -41,16 +41,16 @@ ccccccb3
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
       <ColorList count="10" >
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
       </ColorList>
     </Property>
     <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
@@ -82,12 +82,12 @@ ccccccb3
     </Property>
     <Property name="PointColorArray" type="App::PropertyColorList" status="1">
       <ColorList count="6" >
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
-191919b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
+808080b3
       </ColorList>
     </Property>
     <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
