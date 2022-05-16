@@ -806,7 +806,7 @@ EndMap
     </Property>
     <Property name="ShapeRefs" type="App::PropertyLinkSubList" group="" attr="0" ro="0" hide="0" docID="13524" status="2097152">
       <LinkSubList count="1">
-        <Link obj="Boolean001" sub="Face448" shadow=";#2d;:M2;CUT;:Hc54:8,F.Face448"/>
+        <Link obj="Boolean001" sub="Face443" shadow=";#2d;:M2;CUT;:Hc54:8,F.Face443"/>
       </LinkSubList>
     </Property>
     <Property name="SlipRatio" type="App::PropertyQuantity" group="Flow" attr="0" ro="0" hide="0" docID="13531" status="2097152">

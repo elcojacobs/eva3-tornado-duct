@@ -29,13 +29,11 @@
       <ExpressionEngine count="0"></ExpressionEngine>
     </Property>
     <Property name="Group" type="App::PropertyLinkList">
-      <LinkList count="6">
+      <LinkList count="4">
         <Link value="Sketch003"/>
         <Link value="Import"/>
         <Link value="Import001"/>
         <Link value="Revolution"/>
-        <Link value="Sketch004"/>
-        <Link value="Import002"/>
       </LinkList>
     </Property>
     <Property name="Label" type="App::PropertyString" status="134217728">
@@ -435,12 +433,10 @@ EndMap
       <Bool value="true"/>
     </Property>
     <Property name="_ExportChildren" type="App::PropertyLinkList" status="218104320">
-      <LinkList count="5">
+      <LinkList count="3">
         <Link value="Import"/>
         <Link value="Import001"/>
         <Link value="Revolution"/>
-        <Link value="Sketch004"/>
-        <Link value="Import002"/>
       </LinkList>
     </Property>
     <Property name="_GroupVersion" type="App::PropertyInteger" status="218103808">

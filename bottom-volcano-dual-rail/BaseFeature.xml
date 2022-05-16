@@ -14278,7 +14278,7 @@ Vertex
 
 MapCount 2
 
-ElementMap 1 4 3
+ElementMap 1 2 3
 
 Edge
 
@@ -15435,7 +15435,7 @@ EndMap
       <Integer value="15"/>
     </Property>
     <Property name="Visibility" type="App::PropertyBool" status="649">
-      <Bool value="false"/>
+      <Bool value="true"/>
     </Property>
     <Property name="_Version" type="App::PropertyInteger" status="83886080">
       <Integer value="8"/>

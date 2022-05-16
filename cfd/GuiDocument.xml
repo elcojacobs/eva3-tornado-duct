@@ -28,10 +28,10 @@
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 85.594246 -27.320322 28.345005
-  orientation 0.19907524 0.880853 -0.42949632  1.7048161
-  nearDistance 33.618107
-  farDistance 183.88158
+  position 39.703419 -1.5481625 78.080338
+  orientation 0.26105973 0.53991032 -0.80021536  1.3922874
+  nearDistance -26.647505
+  farDistance 175.58746
   aspectRatio 1
   focalDistance 75.725098
   height 101.5203

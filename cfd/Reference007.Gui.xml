@@ -17,7 +17,7 @@
       <Float value="0.2"/>
     </Property>
     <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-      <ColorList count="169" >
+      <ColorList count="165" >
 4d4d4d00
 4d4d4d00
 4d4d4d00
@@ -25,7 +25,6 @@
 4d4d4d00
 4d4d4d00
 4d4d4d00
-cccccc00
 4d4d4d00
 4d4d4d00
 4d4d4d00
@@ -99,7 +98,6 @@ cccccc00
 4d4d4d00
 4d4d4d00
 4d4d4d00
-cccccc00
 4d4d4d00
 4d4d4d00
 4d4d4d00
@@ -146,8 +144,6 @@ cccccc00
 4d4d4d00
 4d4d4d00
 4d4d4d00
-cccccc00
-cccccc00
 4d4d4d00
 4d4d4d00
 4d4d4d00
@@ -205,19 +201,7 @@ cccccc00
       <PropertyColor value="421075455"/>
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="563" >
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
+      <ColorList count="551" >
 19191900
 19191900
 19191900
@@ -799,15 +783,7 @@ cccccc00
       <PropertyColor value="421075455"/>
     </Property>
     <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="388" >
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
-19191900
+      <ColorList count="380" >
 19191900
 19191900
 19191900

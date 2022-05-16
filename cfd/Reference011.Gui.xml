@@ -17,7 +17,7 @@
       <Float value="0.2"/>
     </Property>
     <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-      <ColorList count="523" >
+      <ColorList count="519" >
 a0a0a0b3
 a0a0a0b3
 a0a0a0b3
@@ -201,43 +201,6 @@ ccccccb3
 4d4d4db3
 4d4d4db3
 4d4d4db3
-ccccccb3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-ccccccb3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-ccccccb3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
 4d4d4db3
 4d4d4db3
 4d4d4db3
@@ -275,37 +238,17 @@ ccccccb3
 4d4d4db3
 4d4d4db3
 4d4d4db3
-ccccccb3
 4d4d4db3
 4d4d4db3
 4d4d4db3
 4d4d4db3
 4d4d4db3
 4d4d4db3
-4d4d4db3
-ccccccb3
 4d4d4db3
 4d4d4db3
 4d4d4db3
 4d4d4db3
 ccccccb3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
-4d4d4db3
 4d4d4db3
 4d4d4db3
 4d4d4db3
@@ -319,6 +262,37 @@ ccccccb3
 4d4d4db3
 4d4d4db3
 ccccccb3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
 ccccccb3
 4d4d4db3
 4d4d4db3
@@ -326,6 +300,28 @@ ccccccb3
 4d4d4db3
 4d4d4db3
 4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+4d4d4db3
+ccccccb3
 4d4d4db3
 4d4d4db3
 4d4d4db3
@@ -559,19 +555,7 @@ a0a0a0b3
       <PropertyColor value="421075455"/>
     </Property>
     <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1547" >
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
+      <ColorList count="1535" >
 808080b3
 808080b3
 808080b3
@@ -2137,15 +2121,7 @@ a0a0a0b3
       <PropertyColor value="421075455"/>
     </Property>
     <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-      <ColorList count="1020" >
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
-808080b3
+      <ColorList count="1012" >
 808080b3
 808080b3
 808080b3
